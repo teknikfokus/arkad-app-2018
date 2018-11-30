@@ -12,7 +12,7 @@ const styles = {
     alignItems: 'stretch',
     height,
     borderBottomWidth: 2,
-    borderColor: global.arkadBlue,
+    borderColor: global.teknikfokusBlue,
     padding: 8
   }
 }

@@ -9,7 +9,7 @@ const styles = {
     paddingRight: 8,
     marginRight: 8,
     borderRightWidth: 1,
-    borderColor: global.arkadBlue
+    borderColor: global.teknikfokusBlue
   },
   infoContainer: { flexDirection: 'column', flex: 1 },
   time: {

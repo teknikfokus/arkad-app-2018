@@ -7,7 +7,7 @@ const styles = {
     paddingVertical: 8,
     backgroundColor: '#fff',
     borderBottomWidth: 2,
-    borderColor: global.arkadBlue
+    borderColor: global.teknikfokusBlue
   },
   sectionTitle: {
     fontSize: 20,

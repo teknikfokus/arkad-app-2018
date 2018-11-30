@@ -25,7 +25,7 @@ const styles = {
 
 const navigationOptions = {
   headerStyle: {
-    backgroundColor: global.arkadBlue
+    backgroundColor: global.teknikfokusBlue
   },
   headerTintColor: '#fff'
 }
@@ -41,7 +41,7 @@ const MainStack = createBottomTabNavigator(
             screen: MapScreen,
             navigationOptions: {
               ...navigationOptions,
-              headerTitle: <SubtitleHeader title="The ARKAD area" subtitle="Click on a building" />
+              headerTitle: <SubtitleHeader title="Teknikfokus area and some more" subtitle="Click on a building" />
             }
           },
           House: {
@@ -169,15 +169,15 @@ const MainStack = createBottomTabNavigator(
         } else if (routeName === 'Events') {
           iconName = 'calendar-check-o'
         } else if (routeName === 'About') {
-          return <ArkadIcon name="arkadlogo" size={26} color={tintColor} />
+          iconName = 'info-circle'
         }
         return <Icon name={iconName} size={20} color={tintColor} />
       },
       tabBarOptions: {
-        activeTintColor: global.arkadBlue,
+        activeTintColor: global.teknikfokusBlue,
         style: {
           borderTopWidth: 2,
-          borderTopColor: global.arkadBlue
+          borderTopColor: global.teknikfokusBlue
         }
       }
     })

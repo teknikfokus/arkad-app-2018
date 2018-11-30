@@ -1,17 +1,20 @@
 import React from 'react'
+import { SectionList } from 'react-native'
 import PropTypes from 'prop-types'
 import DetailsScreen from '../../components/DetailsScreen'
 import DisplayImage from '../../components/DisplayImage'
 import TextSection from '../../components/text/TextSection'
 import TextSubtitleSection from '../../components/text/TextSubtitleSection'
 import Button from '../../components/Button'
+import ArkadTeamListItem from '../../components/listItems/ArkadTeamListItem'
+import SectionHeader from '../../components/SectionHeader'
 
 const AboutScreen = ({
-  navigation, aboutUs, openingHours, aboutArkadTeam
+  navigation, aboutUs, openingHours, aboutArkadTeam, arkadTeam
 }) => (
   <DetailsScreen>
-    <DisplayImage source={require('../../../resources/img/arkad_logo.png')} />
-    <TextSection title="About ARKAD" description={aboutUs} />
+    <DisplayImage source={require('../../../resources/img/teknikfokus_logo.png')} />
+    <TextSection title="About Teknikfokus" description={aboutUs} />
     <TextSubtitleSection
       title="Opening hours"
       subtitleSections={openingHours.map((openingHour, index) => ({
@@ -21,10 +24,12 @@ const AboutScreen = ({
       }))}
     />
     <TextSection
-      title="The ARKAD organization"
+      title="The Teknikfokus organization"
       description={aboutArkadTeam}
-      button={<Button title="The ARKAD team" onPress={() => navigation.navigate('ArkadTeam')} />}
+
     />
+    {arkadTeam[0].data.map(item => <ArkadTeamListItem key={item.key} person={item} />) }
+
   </DetailsScreen>
 )
 

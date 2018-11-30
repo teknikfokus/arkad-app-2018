@@ -20,7 +20,7 @@ const styles = {
   showCompanyButton: {
     width: 70,
     height: 30,
-    backgroundColor: global.arkadBlue,
+    backgroundColor: global.teknikfokusBlue,
     marginLeft: 8,
     borderRadius: 15,
     alignItems: 'center',
@@ -49,7 +49,7 @@ const MapCompanyListItem = ({
           boothNumberContainer,
           {
             backgroundColor:
-              selectedCompany === company.boothNumber ? global.arkadBlue : global.arkadGray
+              selectedCompany === company.boothNumber ? global.teknikfokusBlue : global.arkadGray
           }
         ]}
       >

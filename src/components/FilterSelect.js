@@ -73,8 +73,8 @@ const FilterSelect = ({
         subItem: { marginVertical: 8 },
         itemText: { fontWeight: 'bold', fontSize: 20 },
         subSeparator: { backgroundColor: global.separatorColor },
-        chipContainer: { borderColor: global.arkadBlue },
-        chipText: { color: global.arkadBlue },
+        chipContainer: { borderColor: global.teknikfokusBlue },
+        chipText: { color: global.teknikfokusBlue },
         chipIcon: { color: global.arkadRed },
         button: { backgroundColor: global.buttonColor }
       }}

@@ -1,18 +1,19 @@
 const initialState = [
+
   {
-    title: '4 November',
+    title: '27 November',
     data: [
       {
         key: '1',
-        name: 'Toughest Lab',
+        name: 'Info Sess ',
         speaker: '',
-        startTime: '14:00',
-        endTime: '17:00',
+        startTime: '12:30',
+        endTime: '13:00',
         language: '',
-        location: 'Toughest Lab, Malmö',
+        location: '1406, E-huset',
         description:
-          'Come and get sweaty with ARKAD! We’re arranging two 90-minute long classes with Toughest’s instructors which will be hold at Toughest LAB in Malmö. The two sessions will have 40 spots each, and a shuttle bus will depart from Kårhuset.',
-        signUpURL: 'https://www.arkadtlth.se/events/'
+          'Info om hur det är att vara funktionär på teknikfokus. Kom det blir kul',
+        signUpURL: 'https://www.teknikfokus.se/students'
       }
     ]
   },

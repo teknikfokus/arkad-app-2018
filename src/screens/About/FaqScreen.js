@@ -9,7 +9,7 @@ const styles = {
   container: { flex: 1 },
   tabBar: {
     flexDirection: 'row',
-    backgroundColor: global.arkadBlue
+    backgroundColor: global.teknikfokusBlue
   },
   tab: {
     flex: 0.5,
@@ -17,9 +17,9 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     borderBottomWidth: 5,
-    borderColor: global.arkadBlue
+    borderColor: global.teknikfokusBlue
   },
-  selectedBottomBorderColor: { borderColor: global.arkadLightBlue },
+  selectedBottomBorderColor: { borderColor: global.arkadRed },
   tabText: { fontSize: 14, color: global.gray },
   selectedTextColor: { color: '#fff' },
   categoryHeader: {
