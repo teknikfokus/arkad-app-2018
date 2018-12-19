@@ -71,7 +71,7 @@ const MainStack = createBottomTabNavigator(
             screen: CompaniesScreenContainer,
             navigationOptions: ({ navigation }) => ({
               ...navigationOptions,
-              title: 'Companies',
+              title: 'TEKNIKFOKUS',
               headerRight: (
                 <TouchableOpacity
                   style={styles.headerIcon}

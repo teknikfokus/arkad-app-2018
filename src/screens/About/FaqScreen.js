@@ -19,7 +19,7 @@ const styles = {
     borderBottomWidth: 5,
     borderColor: global.teknikfokusBlue
   },
-  selectedBottomBorderColor: { borderColor: global.arkadRed },
+  selectedBottomBorderColor: { borderColor: global.teknikfokusDarkGrey },
   tabText: { fontSize: 14, color: global.gray },
   selectedTextColor: { color: '#fff' },
   categoryHeader: {

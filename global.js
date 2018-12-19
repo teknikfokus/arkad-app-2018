@@ -1,6 +1,7 @@
 // ARKAD colors
 global.teknikfokusBlue = 'rgb(23 , 169, 208)'
 global.arkadLightBlue = 'rgb(250, 250, 250)'
+global.teknikfokusDarkGrey= 'rgb(128,128,128)'
 global.arkadGray = 'rgb(227, 227, 227)'
 global.arkadRed = 'rgb(158, 11, 15)'
 
