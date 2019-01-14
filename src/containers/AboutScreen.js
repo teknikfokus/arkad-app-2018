@@ -5,7 +5,8 @@ const mapStateToProps = state => ({
   aboutUs: state.aboutReducer.aboutUs,
   openingHours: state.aboutReducer.openingHours,
   aboutArkadTeam: state.aboutReducer.aboutArkadTeam,
-  arkadTeam: state.aboutReducer.arkadTeam
+  arkadTeam: state.aboutReducer.arkadTeam,
+  theApp: state.aboutReducer.theApp
 })
 
 export default connect(mapStateToProps)(AboutScreen)

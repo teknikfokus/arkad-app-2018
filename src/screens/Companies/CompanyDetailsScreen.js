@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { TouchableOpacity, Linking, Alert } from 'react-native'
+import { TouchableOpacity, Linking, Alert, Image } from 'react-native'
 import PropTypes from 'prop-types'
 import ActionSheet from 'react-native-actionsheet'
 import Icon from 'react-native-vector-icons/Feather'
@@ -86,46 +86,22 @@ class CompanyDetailsScreen extends Component {
     const actionSheetUrls = ['', ...actionSheetData.map(item => item.url), '']
     return (
       <DetailsScreen>
-        <DisplayImage source={{ uri: company.logotypeUrl }} />
+        <DisplayImage source={company['Logo-fileName']} />
+        
+        <TextSection title={`About ${company.Company}`} description={company['About your company']} />
 
-        <TextSection title={`About ${company.name}`} description={company.about} />
+        <TextArraySection title="We offer" descriptionArray={[company.Offer]} />
+        <TextArraySection title="Desired programme" descriptionArray={[company['Interested in']]} />
 
-        {company.map !== '' && company.boothNumber !== 0 ? (
-          <Section title="Find us">
-            <Button
-              title={`${company.map}, booth ${company.boothNumber}`}
-              onPress={() => {
-                toggleChangeMap(company.map)
-                toggleChangeCompany(company.boothNumber)
-                navigation.navigate('MapStack')
-                navigation.navigate('House')
-              }}
-            />
-          </Section>
-        ) : null}
-
-        <TextArraySection title="We offer" descriptionArray={company.weOffer} />
-        <TextArraySection title="Desired programme" descriptionArray={company.desiredProgramme} />
-        <TextArraySection title="Desired degree" descriptionArray={company.desiredDegree} />
-        <TextArraySection title="Industry" descriptionArray={company.industry} />
-
-        <TextSection title="Did you know?" description={company.didYouKnow} />
-
-        <TextSubtitleSection
-          title="Employees"
-          subtitleSections={[
-            { key: '0', subtitle: 'Local', description: company.employees.local },
-            { key: '1', subtitle: 'Global', description: company.employees.global }
-          ]}
-        />
+        
+        <TextSection title="Offies locations" description={company['Where do you have offices?']} />
+        <TextSection title="Sustainability" description={company['In what way does your company work for  Sustainability?']} />
 
         <TextSubtitleSection
           title="Contact"
           subtitleSections={[
-            { key: '0', subtitle: 'Name', description: company.contact.name },
-            { key: '1', subtitle: 'Title', description: company.contact.title },
-            { key: '2', subtitle: 'Email', description: company.contact.email },
-            { key: '3', subtitle: 'Phone', description: company.contact.phone }
+            { key: '0', subtitle: 'Name', description: company['Name of contact person'] },
+            { key: '1', subtitle: 'Title', description: company['Email of contact person']}
           ]}
         />
 

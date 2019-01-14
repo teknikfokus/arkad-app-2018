@@ -52,19 +52,10 @@ const filterFavoritesAndSearch = (items, showFavorites, favorites, searchText) =
   return companies
 }
 
+// TODO: after companyList enter all Teknikfokus-companies 
+
 const mapStateToProps = state => ({
-  companyList: filterFavoritesAndSearch(
-    filterCategories(
-      state.apiReducer.items,
-      state.companyReducer.desiredProgramme,
-      state.companyReducer.weOffer,
-      state.companyReducer.industry,
-      state.companyReducer.desiredDegree
-    ),
-    state.companyReducer.showFavorites,
-    state.favoriteReducer.favorites,
-    state.companyReducer.searchText
-  ),
+  companyList: require('../../resources/companyInfoTF').default,
   searchText: state.companyReducer.searchText,
   showFavorites: state.companyReducer.showFavorites,
   refreshing: state.companyReducer.refreshing

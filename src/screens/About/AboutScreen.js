@@ -1,5 +1,5 @@
 import React from 'react'
-import { SectionList } from 'react-native'
+import { SectionList, Image } from 'react-native'
 import PropTypes from 'prop-types'
 import DetailsScreen from '../../components/DetailsScreen'
 import DisplayImage from '../../components/DisplayImage'
@@ -10,7 +10,7 @@ import ArkadTeamListItem from '../../components/listItems/ArkadTeamListItem'
 import SectionHeader from '../../components/SectionHeader'
 
 const AboutScreen = ({
-  navigation, aboutUs, openingHours, aboutArkadTeam, arkadTeam
+  navigation, aboutUs, openingHours, aboutArkadTeam, arkadTeam, theApp
 }) => (
   <DetailsScreen>
     <DisplayImage source={require('../../../resources/img/teknikfokus_logo.png')} />
@@ -30,15 +30,26 @@ const AboutScreen = ({
     />
     {arkadTeam[0].data.map(item => <ArkadTeamListItem key={item.key} person={item} />) }
 
+    <TextSection
+      title="The application"
+      description={theApp}
+    />
+    
+    <Image source={require('../../../resources/img/ARKAD_logo.png')} />
+
   </DetailsScreen>
 )
+
 
 AboutScreen.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func.isRequired }).isRequired,
   aboutUs: PropTypes.string.isRequired,
   aboutArkadTeam: PropTypes.string.isRequired,
+  theApp:PropTypes.string.isRequired,
   openingHours: PropTypes.arrayOf(
-    PropTypes.shape({ date: PropTypes.string.isRequired, time: PropTypes.string.isRequired })
+    PropTypes.shape({
+      date: PropTypes.string.isRequired,
+      time: PropTypes.string.isRequired })
       .isRequired
   ).isRequired
 }

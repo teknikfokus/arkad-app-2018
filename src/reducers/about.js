@@ -7,6 +7,7 @@ const initialState = {
   ],
   aboutArkadTeam:
     'Teknikfokus consist of the Project Group and Hosts. ',
+
   arkadTeam: [
     {
       title: 'Project group',
@@ -77,6 +78,8 @@ const initialState = {
       ]
     }
   ],
+  theApp:
+  'This application was devloped based on the ARKAD app 2018',
   faq: {
     forStudents: [
       {

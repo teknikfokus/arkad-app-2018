@@ -90,7 +90,7 @@ const CompaniesScreen = ({
   } else {
     sections = companyList.reduce((a, b) => {
       const item = a
-      const firstLetter = b.name[0].toUpperCase()
+      const firstLetter = b.Company[0].toUpperCase()
       if (item[firstLetter]) {
         item[firstLetter].push(b)
       } else {
