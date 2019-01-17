@@ -8,12 +8,13 @@ import CompaniesScreen from '../screens/Companies/CompaniesScreen'
 const filterCategories = (items, desiredProgramme, weOffer) => {
   let companies = items
   companies = companies.filter(
-    item => (desiredProgramme.length !== 0
-      ? item.desiredProgramme.some(element => desiredProgramme.includes(element)) : true)
-      && (weOffer.length !== 0 ? item.weOffer.some(element => weOffer.includes(element)) : true)
+    item => (
+      desiredProgramme.length !== 0 ? item['Interested in'].includes(desiredProgramme) : true)
+      && (weOffer.length !== 0 ? item['Offer'].includes(weOffer) : true)
   )
   return companies
 }
+// item.desiredProgramme.some(element => desiredProgramme.includes(element)) : true)
 
 const filterFavoritesAndSearch = (items, showFavorites, favorites, searchText) => {
   let companies = items

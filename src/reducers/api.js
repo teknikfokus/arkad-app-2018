@@ -106,96 +106,96 @@ const apiReducer = (state = initialState, action) => {
   let desiredProgramme = []
   let weOffer = []
   switch (action.type) {
-    case types.FETCH_COMPANIES_REQUEST:
-      return {
-        ...state,
-        loading: true,
-        error: ''
-      }
-    case types.FETCH_COMPANIES_SUCCESS:
-      filteredCompanies = action.companies.filter(company => company.profile).map((item) => {
-        const { profile } = item
-        const company = {
-          key: stringCleaner(item.id),
-          name: stringCleaner(item.Company),
-          about: stringCleaner(profile.aboutUs),
-          didYouKnow: stringCleaner(profile.didYouKnow),
+    // case types.FETCH_COMPANIES_REQUEST:
+    //   return {
+    //     ...state,
+    //     loading: true,
+    //     error: ''
+    //   }
+    // case types.FETCH_COMPANIES_SUCCESS:
+    //   filteredCompanies = action.companies.filter(company => company.profile).map((item) => {
+    //     const { profile } = item
+    //     const company = {
+    //       key: stringCleaner(item.id),
+    //       name: stringCleaner(item.Company),
+    //       about: stringCleaner(profile.aboutUs),
+    //       didYouKnow: stringCleaner(profile.didYouKnow),
 
-          employees: {
-            local: stringCleaner(profile.employeesLocal),
-            global: stringCleaner(profile.employeesGlobal)
-          },
+    //       employees: {
+    //         local: stringCleaner(profile.employeesLocal),
+    //         global: stringCleaner(profile.employeesGlobal)
+    //       },
 
-          weOffer: arrayCleaner(profile.weOffer)
-            .map(word => translateWords(word, 'weOffer'))
-            .filter(word => word !== ''),
-          desiredProgramme: arrayCleaner(profile.desiredProgramme)
-            .map(word => translateWords(word, 'desiredProgramme'))
-            .filter(word => word !== ''),
+    //       weOffer: arrayCleaner(profile.weOffer)
+    //         .map(word => translateWords(word, 'weOffer'))
+    //         .filter(word => word !== ''),
+    //       desiredProgramme: arrayCleaner(profile.desiredProgramme)
+    //         .map(word => translateWords(word, 'desiredProgramme'))
+    //         .filter(word => word !== ''),
         
 
-          contact: {
-            name: stringCleaner(profile.contactName),
-            title: stringCleaner(profile.contactTitle),
-            email: stringCleaner(profile.contactEmail),
-            phone: stringCleaner(profile.contactPhone)
-          },
+    //       contact: {
+    //         name: stringCleaner(profile.contactName),
+    //         title: stringCleaner(profile.contactTitle),
+    //         email: stringCleaner(profile.contactEmail),
+    //         phone: stringCleaner(profile.contactPhone)
+    //       },
 
-          map: stringCleaner(profile.map),
-          boothNumber: profile.boothNumber ? profile.boothNumber : 0,
+    //       map: stringCleaner(profile.map),
+    //       boothNumber: profile.boothNumber ? profile.boothNumber : 0,
 
-          logotypeUrl: profile.logotype
-            ? stringCleaner(profile.logotype.thumbs.large.replace('http://', 'https://'))
-            : '',
-          brochureUrl: profile.ad ? urlFormatter(stringCleaner(profile.ad.url)) : '',
-          websiteUrl: urlFormatter(stringCleaner(profile.urlWebsite)),
-          linkedInUrl: urlFormatter(stringCleaner(profile.urlLinkedIn)),
-          facebookUrl: urlFormatter(stringCleaner(profile.urlLinkedIn)),
-          twitterUrl: urlFormatter(stringCleaner(profile.urlTwitter)),
-          youTubeUrl: urlFormatter(stringCleaner(profile.urlYouTube))
-        }
-        return company
-      })
-      filteredCompanies.map((company) => {
-        maps = [...maps, company.map]
-        desiredProgramme = [...desiredProgramme, ...company.desiredProgramme]
-        weOffer = [...weOffer, ...company.weOffer]
-        return company
-      })
-      maps = Array.from(new Set(maps))
-        .sort((a, b) => {
-          const nameA = a.toLowerCase()
-          const nameB = b.toLowerCase()
-          if (nameA < nameB) {
-            return -1
-          }
-          if (nameA > nameB) {
-            return 1
-          }
-          return 0
-        })
-        .filter(item => item !== '')
-      desiredProgramme = filterFormatter('Programs', 'desiredProgramme', desiredProgramme)
-      weOffer = filterFormatter('Offers', 'weOffer', weOffer)
-      return {
-        ...state,
-        items: filteredCompanies,
-        filters: {
-          desiredProgramme,
-          weOffer
-        },
-        maps,
-        notUpdated: [],
-        loading: false,
-        updated: Math.floor(Date.now() / 1000)
-      }
-    case types.FETCH_COMPANIES_FAILURE:
-      Alert.alert(action.error)
-      return {
-        ...state,
-        loading: false,
-        error: action.error
-      }
+    //       logotypeUrl: profile.logotype
+    //         ? stringCleaner(profile.logotype.thumbs.large.replace('http://', 'https://'))
+    //         : '',
+    //       brochureUrl: profile.ad ? urlFormatter(stringCleaner(profile.ad.url)) : '',
+    //       websiteUrl: urlFormatter(stringCleaner(profile.urlWebsite)),
+    //       linkedInUrl: urlFormatter(stringCleaner(profile.urlLinkedIn)),
+    //       facebookUrl: urlFormatter(stringCleaner(profile.urlLinkedIn)),
+    //       twitterUrl: urlFormatter(stringCleaner(profile.urlTwitter)),
+    //       youTubeUrl: urlFormatter(stringCleaner(profile.urlYouTube))
+    //     }
+    //     return company
+    //   })
+    //   filteredCompanies.map((company) => {
+    //     maps = [...maps, company.map]
+    //     desiredProgramme = [...desiredProgramme, ...company.desiredProgramme]
+    //     weOffer = [...weOffer, ...company.weOffer]
+    //     return company
+    //   })
+    //   maps = Array.from(new Set(maps))
+    //     .sort((a, b) => {
+    //       const nameA = a.toLowerCase()
+    //       const nameB = b.toLowerCase()
+    //       if (nameA < nameB) {
+    //         return -1
+    //       }
+    //       if (nameA > nameB) {
+    //         return 1
+    //       }
+    //       return 0
+    //     })
+    //     .filter(item => item !== '')
+    //   desiredProgramme = filterFormatter('Programs', 'desiredProgramme', desiredProgramme)
+    //   weOffer = filterFormatter('Offers', 'weOffer', weOffer)
+    //   return {
+    //     ...state,
+    //     items: filteredCompanies,
+    //     filters: {
+    //       desiredProgramme,
+    //       weOffer
+    //     },
+    //     maps,
+    //     notUpdated: [],
+    //     loading: false,
+    //     updated: Math.floor(Date.now() / 1000)
+    //   }
+    // case types.FETCH_COMPANIES_FAILURE:
+    //   Alert.alert(action.error)
+    //   return {
+    //     ...state,
+    //     loading: false,
+    //     error: action.error
+    //   }
     case types.FETCH_UPDATED_SINCE_REQUEST:
       return {
         ...state,
