@@ -32,45 +32,13 @@ const arrayCleaner = array => (array
 const translateWords = (originalWord, id) => {
   const translations = {
     desiredProgramme: [
-      { words: ['Arkitekt'], translation: 'Architect' },
-      { words: ['Bioteknik'], translation: 'Biotechnology' },
-      {
-        words: ['Brandingenjörsutbildning'],
-        translation: 'Fire Protection Engineering'
-      },
-      { words: ['Byggteknik med arkitektur'], translation: 'Civil Engineering - Architecture' },
-      {
-        words: ['Byggteknik med järnvägsteknik'],
-        translation: 'Civil Engineering - Railway Construction'
-      },
-      {
-        words: ['Byggteknik med väg- och trafikteknik'],
-        translation: 'Civil Engineering- Road and Traffic Technology'
-      },
       { words: ['Datateknik'], translation: 'Computer Science and Engineering' },
-      { words: ['Ekosystemteknik'], translation: 'Environmental Engineering' },
       { words: ['Elektroteknik'], translation: 'Electrical Engineering' },
-      { words: ['Industridesign'], translation: 'Industrial Design' },
-      { words: ['Industriell ekonomi'], translation: 'Industrial Engineering and Management' },
       {
         words: ['Informations- och kommunikationsteknik'],
         translation: 'Information and Communication Engineering'
       },
-      { words: ['Kemiteknik'], translation: 'Chemical Engineering' },
-      { words: ['Lantmäteri'], translation: 'Surveying' },
-      {
-        words: ['Maskinteknik med teknisk design'],
-        translation: 'Mechanical Engineering with Industrial Design'
-      },
-      { words: ['Maskinteknik'], translation: 'Mechanical Engineering' },
-      { words: ['Medicin och teknik'], translation: 'Biomedical Engineering' },
-      { words: ['Teknisk Fysik'], translation: 'Engineering Physics' },
-      { words: ['Teknisk Matematik'], translation: 'Engineering Mathematics' },
-      { words: ['Teknisk Nanovetenskap'], translation: 'Engineering Nanoscience' },
-      {
-        words: ['Väg- och vattenbyggnad', 'Väg- och vatttenbyggnad'],
-        translation: 'Civil Engineering'
-      }
+      { words: ['Medicin och teknik'], translation: 'Biomedical Engineering' }
     ],
     weOffer: [
       {
@@ -97,110 +65,6 @@ const translateWords = (originalWord, id) => {
         words: ['Extrajobb'],
         translation: 'Part-time job'
       }
-    ],
-    industry: [
-      {
-        words: ['El, Energi och Kraft', 'Renewable energy', 'Water'],
-        translation: 'Electricity, Energy & Power'
-      },
-      {
-        words: ['Miljö'],
-        translation: 'Environment'
-      },
-      {
-        words: ['Bank och finans'],
-        translation: 'Banking, Finance'
-      },
-      {
-        words: ['Fackförbund'],
-        translation: 'Union'
-      },
-      {
-        words: ['Investering'],
-        translation: 'Investment'
-      },
-      {
-        words: ['Försäkring'],
-        translation: 'Insurance'
-      },
-      {
-        words: ['Bemanning & Arbetsförmedling'],
-        translation: 'Recruitment'
-      },
-      {
-        words: ['Bygg'],
-        translation: 'Construction'
-      },
-      {
-        words: ['Arkitektur och Grafisk design'],
-        translation: 'Architecture, Graphic design'
-      },
-      {
-        words: ['Data och IT', 'Data', 'IT'],
-        translation: 'Data and IT'
-      },
-      {
-        words: ['Ekonomi och konsultverksamhet'],
-        translation: 'Finance and consultancy'
-      },
-      {
-        words: ['Telekommunikation'],
-        translation: 'Telecommunication'
-      },
-      {
-        words: ['Konsultverksamhet'],
-        translation: 'Consulting'
-      },
-      {
-        words: ['Management'],
-        translation: 'Management'
-      },
-      {
-        words: ['Media'],
-        translation: 'Media'
-      },
-      {
-        words: ['Industri', 'Manufacturing industry'],
-        translation: 'Industry'
-      },
-      {
-        words: ['Kärnkraft'],
-        translation: 'Nuclear power'
-      },
-      {
-        words: ['Life Science'],
-        translation: 'Life Science'
-      },
-      {
-        words: ['Medicinteknik'],
-        translation: 'Medical Techniques'
-      },
-      {
-        words: ['Fastigheter & Infrastruktur'],
-        translation: 'Property & Infrastructure'
-      },
-      {
-        words: ['Forskning'],
-        translation: 'Research'
-      },
-      {
-        words: ['Vägledning'],
-        translation: 'Coaching'
-      }
-    ],
-    desiredDegree: [
-      {
-        words: ['Master’s degree (300 ECTS)', 'Master’s degree (300ECTS)'],
-        translation: 'Master’s degree (300 ECTS)'
-      },
-      {
-        words: ['Bachelor’s degree (180 ECTS)'],
-        translation: 'Bachelor’s degree (180 ECTS)'
-      },
-      {
-        words: ['Ph.D'],
-        translation: 'Ph.D'
-      }
     ]
   }
 
@@ -223,8 +87,8 @@ const filterFormatter = (name, id, array) => {
       name: item
     }))
     .sort((a, b) => {
-      const nameA = a.name.toLowerCase()
-      const nameB = b.name.toLowerCase()
+      const nameA = a.toLowerCase()
+      const nameB = b.toLowerCase()
       if (nameA < nameB) {
         return -1
       }
@@ -241,8 +105,6 @@ const apiReducer = (state = initialState, action) => {
   let maps = []
   let desiredProgramme = []
   let weOffer = []
-  let industry = []
-  let desiredDegree = []
   switch (action.type) {
     case types.FETCH_COMPANIES_REQUEST:
       return {
@@ -255,7 +117,7 @@ const apiReducer = (state = initialState, action) => {
         const { profile } = item
         const company = {
           key: stringCleaner(item.id),
-          name: stringCleaner(item.name),
+          name: stringCleaner(item.Company),
           about: stringCleaner(profile.aboutUs),
           didYouKnow: stringCleaner(profile.didYouKnow),
 
@@ -270,12 +132,7 @@ const apiReducer = (state = initialState, action) => {
           desiredProgramme: arrayCleaner(profile.desiredProgramme)
             .map(word => translateWords(word, 'desiredProgramme'))
             .filter(word => word !== ''),
-          desiredDegree: arrayCleaner(profile.desiredDegree)
-            .map(word => translateWords(word, 'desiredDegree'))
-            .filter(word => word !== ''),
-          industry: arrayCleaner(profile.industry)
-            .map(word => translateWords(word, 'industry'))
-            .filter(word => word !== ''),
+        
 
           contact: {
             name: stringCleaner(profile.contactName),
@@ -303,8 +160,6 @@ const apiReducer = (state = initialState, action) => {
         maps = [...maps, company.map]
         desiredProgramme = [...desiredProgramme, ...company.desiredProgramme]
         weOffer = [...weOffer, ...company.weOffer]
-        industry = [...industry, ...company.industry]
-        desiredDegree = [...desiredDegree, ...company.desiredDegree]
         return company
       })
       maps = Array.from(new Set(maps))
@@ -322,16 +177,12 @@ const apiReducer = (state = initialState, action) => {
         .filter(item => item !== '')
       desiredProgramme = filterFormatter('Programs', 'desiredProgramme', desiredProgramme)
       weOffer = filterFormatter('Offers', 'weOffer', weOffer)
-      industry = filterFormatter('Industries', 'industry', industry)
-      desiredDegree = filterFormatter('Degrees', 'desiredDegree', desiredDegree)
       return {
         ...state,
         items: filteredCompanies,
         filters: {
           desiredProgramme,
-          weOffer,
-          industry,
-          desiredDegree
+          weOffer
         },
         maps,
         notUpdated: [],

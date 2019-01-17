@@ -17,8 +17,6 @@ const FilterSelect = ({
   item,
   desiredProgramme,
   weOffer,
-  industry,
-  desiredDegree,
   showFavorites,
   toggleShowFavorites,
   addCompanyFilter
@@ -30,12 +28,6 @@ const FilterSelect = ({
       break
     case 'weOffer':
       filter = weOffer
-      break
-    case 'industry':
-      filter = industry
-      break
-    case 'desiredDegree':
-      filter = desiredDegree
       break
     default:
   }
@@ -95,8 +87,6 @@ FilterSelect.propTypes = {
   }).isRequired,
   desiredProgramme: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
   weOffer: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-  industry: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-  desiredDegree: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
   showFavorites: PropTypes.bool.isRequired,
   toggleShowFavorites: PropTypes.func.isRequired,
   addCompanyFilter: PropTypes.func.isRequired

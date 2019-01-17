@@ -4,10 +4,13 @@ import PropTypes from 'prop-types'
 import DetailsScreen from '../../components/DetailsScreen'
 import DisplayImage from '../../components/DisplayImage'
 import TextSection from '../../components/text/TextSection'
+import TextSectionNoLine from '../../components/text/TextSectionNoLine'
+import Line from '../../components/text/Line'
 import TextSubtitleSection from '../../components/text/TextSubtitleSection'
-import Button from '../../components/Button'
+import BoldText from '../../components/text/BoldText'
 import ArkadTeamListItem from '../../components/listItems/ArkadTeamListItem'
 import SectionHeader from '../../components/SectionHeader'
+import DescriptionText from '../../components/text/DescriptionText';
 
 const AboutScreen = ({
   navigation, aboutUs, openingHours, aboutArkadTeam, arkadTeam, theApp
@@ -23,19 +26,22 @@ const AboutScreen = ({
         description: openingHour.time
       }))}
     />
-    <TextSection
+    <TextSectionNoLine
       title="The Teknikfokus organization"
       description={aboutArkadTeam}
-
     />
+    <BoldText description={"  The Project Group"} />
+
     {arkadTeam[0].data.map(item => <ArkadTeamListItem key={item.key} person={item} />) }
 
-    <TextSection
-      title="The application"
+    <Line></Line>
+
+    <TextSectionNoLine
+      title="App Development"
       description={theApp}
     />
     
-    <Image source={require('../../../resources/img/ARKAD_logo.png')} />
+    <DisplayImage source={require('../../../resources/img/ARKAD_logo.png')} />
 
   </DetailsScreen>
 )

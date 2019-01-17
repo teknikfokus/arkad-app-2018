@@ -96,14 +96,7 @@ class CompanyDetailsScreen extends Component {
         
         <TextSection title="Offies locations" description={company['Where do you have offices?']} />
         <TextSection title="Sustainability" description={company['In what way does your company work for  Sustainability?']} />
-
-        <TextSubtitleSection
-          title="Contact"
-          subtitleSections={[
-            { key: '0', subtitle: 'Name', description: company['Name of contact person'] },
-            { key: '1', subtitle: 'Title', description: company['Email of contact person']}
-          ]}
-        />
+        <TextSection title="Contact" description={company['Name of contact person'] + "\n " + company['Email of contact person']}/>
 
         <ActionSheet
           ref={(ref) => {
@@ -116,7 +109,7 @@ class CompanyDetailsScreen extends Component {
             switch (index) {
               case 0:
                 toggleFavorite(company.key)
-                Alert.alert(`${alertButtonText} ${company.name} as favorite`)
+                Alert.alert(`${alertButtonText} ${company.Company} as favorite`)
                 break
               case actionSheetOptions.length - 1:
                 break

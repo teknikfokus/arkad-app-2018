@@ -14,12 +14,6 @@ const CompanyFilterScreen = ({ navigation, filters }) => (
     <Section title="Offers">
       <FilterSelectContainer item={filters.weOffer} />
     </Section>
-    <Section title="Industry">
-      <FilterSelectContainer item={filters.industry} />
-    </Section>
-    <Section title="Degree">
-      <FilterSelectContainer item={filters.desiredDegree} />
-    </Section>
     <View style={{ paddingVertical: 8 }}>
       <Button title="Done" onPress={() => navigation.goBack()} />
     </View>
@@ -36,18 +30,6 @@ CompanyFilterScreen.propTypes = {
         .isRequired
     }).isRequired,
     weOffer: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      id: PropTypes.string.isRequired,
-      children: PropTypes.arrayOf(PropTypes.shape({ name: PropTypes.string.isRequired }).isRequired)
-        .isRequired
-    }).isRequired,
-    industry: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      id: PropTypes.string.isRequired,
-      children: PropTypes.arrayOf(PropTypes.shape({ name: PropTypes.string.isRequired }).isRequired)
-        .isRequired
-    }).isRequired,
-    desiredDegree: PropTypes.shape({
       name: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
       children: PropTypes.arrayOf(PropTypes.shape({ name: PropTypes.string.isRequired }).isRequired)

@@ -9,18 +9,22 @@ const styles = {
     height: 34,
     width: 34,
     marginRight: 8,
-    borderRadius: 17
+    borderRadius: 17   
   },
   infoContainer: { flexDirection: 'column', flex: 1 },
   title: {
     flex: 1,
     fontSize: 16
   },
-  subtitle: { flex: 1, fontSize: 14, color: global.subtitleColor }
+  subtitle: { flex: 1, fontSize: 14, color: global.subtitleColor },
+  content:{
+    orderBottomWidth: 2,
+    borderColor: global.teknikfokusBlue
+  }
 }
 
 const {
-  image, infoContainer, title, subtitle
+  image, infoContainer, title, subtitle, content
 } = styles
 const ArkadTeamListItem = ({ person }) => (
   <ListItem>

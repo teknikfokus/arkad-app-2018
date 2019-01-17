@@ -6,7 +6,7 @@ const initialState = {
     { date: '13 Februrary', time: '10:00-16:00' }
   ],
   aboutArkadTeam:
-    'Teknikfokus consist of the Project Group and Hosts. ',
+    'Teknikfokus consist of the Project Group and Hosts. Around 100 hosts works together with the project group.',
 
   arkadTeam: [
     {
@@ -79,7 +79,7 @@ const initialState = {
     }
   ],
   theApp:
-  'This application was devloped based on the ARKAD app 2018',
+  'This application was devloped based on the ARKAD app 2018 that was developed by Daniel Tovesson, Fredrik Siemund, Gustav Lilja and John Helbrink',
   faq: {
     forStudents: [
       {

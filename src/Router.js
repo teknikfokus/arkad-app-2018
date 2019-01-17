@@ -41,7 +41,7 @@ const MainStack = createBottomTabNavigator(
             screen: MapScreen,
             navigationOptions: {
               ...navigationOptions,
-              headerTitle: <SubtitleHeader title="Teknikfokus area and some more" subtitle="Click on a building" />
+              headerTitle: <SubtitleHeader title="TEKNIKFOKUS" subtitle="Area Map"/>
             }
           },
           House: {
@@ -71,7 +71,7 @@ const MainStack = createBottomTabNavigator(
             screen: CompaniesScreenContainer,
             navigationOptions: ({ navigation }) => ({
               ...navigationOptions,
-              title: 'TEKNIKFOKUS',
+              title: 'Companies',
               headerRight: (
                 <TouchableOpacity
                   style={styles.headerIcon}

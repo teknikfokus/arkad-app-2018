@@ -1,32 +1,27 @@
 import React from 'react'
 import { View } from 'react-native'
 import PropTypes from 'prop-types'
-import Section from './Section'
+import SectionNoLine from './SectionNoLine'
 import DescriptionText from './DescriptionText'
 
-const styles = { 
-  buttonContainer: { 
-    marginTop: 10, 
-    borderColor: global.arkadRed
-  }
-  }
+const styles = { buttonContainer: {  marginTop: 10 }}
 
 const { buttonContainer } = styles
-const TextSection = ({ title, description, button }) => (description !== '' ? (
-  <Section title={title} >
+const TextSectionNoLine = ({ title, description, button }) => (description !== '' ? (
+  <SectionNoLine title={title} >
     <DescriptionText description={description} />
     {button !== null ? <View style={buttonContainer}>{button}</View> : null}
-  </Section>
+  </SectionNoLine>
 ) : null)
 
-TextSection.propTypes = {
+TextSectionNoLine.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   button: PropTypes.element
 }
 
-TextSection.defaultProps = {
+TextSectionNoLine.defaultProps = {
   button: null
 }
 
-export default TextSection
+export default TextSectionNoLine

@@ -18,11 +18,43 @@ const initialState = [
     ]
   },
   {
+    "title": "12 February",
+    data:[
+      {
+    "key": 2,
+    "name": "FIRST DAY OF FAIR",
+    "speaker": "",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "language": "",
+    "location": "E-huset",
+    "description": "",
+    "signUpURL": ""
+      }
+    ]
+  },
+  {
+    "title": "13 February",
+    data:[
+      {
+    "key": 3,
+    "name": "SECOND DAY OF FAIR",
+    "speaker": "",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "language": "",
+    "location": "E-huset",
+    "description": "",
+    "signUpURL": ""
+      }
+    ]
+  },
+  {
     title: '5 November',
     data: [
       {
-        key: '1',
-        name: 'The Digital Revolution',
+        "key": '4',
+        "name": "The Digital Revolution",
         speaker: 'Andreas Ekström',
         startTime: '17:00',
         endTime: '18:30',
@@ -30,7 +62,7 @@ const initialState = [
         location: 'Kårhuset: Aulan',
         description:
           'The journalist Andreas Ekström will perform his internationally famous lecture - Seven ways to own the world". It will bring up how power, money and knowledge has been unevenly distributed in the digital revolution, but also the enormous possibilities which have appeared - to build business, new social interplay and the internet that we really want.',
-        signUpURL: 'https://www.arkadtlth.se/events/'
+        signUpURL: ''
       }
     ]
   },
@@ -38,7 +70,7 @@ const initialState = [
     title: '7 November',
     data: [
       {
-        key: '1',
+        key: '5',
         name: 'Assa Abloy',
         speaker: '',
         startTime: '12:15',
@@ -50,7 +82,7 @@ const initialState = [
         signUpURL: 'https://www.arkadtlth.se/events/'
       },
       {
-        key: '2',
+        key: '6',
         name: 'Kodjo Akolor',
         speaker: '',
         startTime: '17:00',
@@ -67,7 +99,7 @@ const initialState = [
     title: '8 November',
     data: [
       {
-        key: '1',
+        key: '7',
         name: 'ATEA',
         speaker: '',
         startTime: '12:15',
@@ -79,7 +111,7 @@ const initialState = [
         signUpURL: 'https://www.arkadtlth.se/events/'
       },
       {
-        key: '2',
+        key: '8',
         name: 'Snacka Snyggt',
         speaker: 'Serena Mon de Vienne',
         startTime: '17:00',
@@ -96,7 +128,7 @@ const initialState = [
     title: '12 November',
     data: [
       {
-        key: '1',
+        key: '9',
         name: 'Region Skåne',
         speaker: '',
         startTime: '12:15',
@@ -113,7 +145,7 @@ const initialState = [
     title: '13 November',
     data: [
       {
-        key: '1',
+        key: '10',
         name: 'Opening Ceremony ARKAD 2018',
         speaker: '',
         startTime: '18:00',
@@ -130,7 +162,7 @@ const initialState = [
     title: '15 November',
     data: [
       {
-        key: '1',
+        key: '11',
         name: 'Pitch Please',
         speaker: '',
         startTime: '12:00',

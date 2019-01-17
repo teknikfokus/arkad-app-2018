@@ -144,9 +144,7 @@ CompaniesScreen.propTypes = {
 
       weOffer: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
       desiredProgramme: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-      desiredDegree: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-      industry: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-
+      
       contact: PropTypes.shape({
         name: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,

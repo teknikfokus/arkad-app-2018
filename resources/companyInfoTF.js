@@ -1,5 +1,6 @@
 const companyData = [
   {
+    "key": 1,
     "Company": "Bosch",
     "In the company info on website and app, do you want to show the email of your contact person?": "Yes",
     "Do you want to use same contact-info as we have for your Teknikfokus-application?": "No (You will add in next section)",
@@ -15,6 +16,7 @@ const companyData = [
     "Logo-fileName": require("./companieImg/logo.png")
   },
   {
+    "key": 2,
     "Company": "Venture Cup",
     "In the company info on website and app, do you want to show the email of your contact person?": "Yes",
     "Do you want to use same contact-info as we have for your Teknikfokus-application?": "Yes",
@@ -30,6 +32,7 @@ const companyData = [
     "Logo-fileName": require("./companieImg/ventureCup.png")
   },
   {
+    "key": 3,
     "Company": "Tetra Pak",
     "In the company info on website and app, do you want to show the email of your contact person?": "No",
     "Do you want to use same contact-info as we have for your Teknikfokus-application?": "No (You will add in next section)",
@@ -43,6 +46,22 @@ const companyData = [
     "Name of contact person": "",
     "Email of contact person": "",
     "Logo-fileName": require("./companieImg/TetraPak.png")
+  },
+  {
+    "key": 4,
+    "Company": "aPak",
+    "In the company info on website and app, do you want to show the email of your contact person?": "No",
+    "Do you want to use same contact-info as we have for your Teknikfokus-application?": "No (You will add in next section)",
+    "Have you uploaded the logo?": "Yes",
+    "About your company": "Tetra Pak is the world's leading food processing and packaging solutions company. Working closely with our customers and suppliers, we provide safe, innovative and environmentally sound products that each day meet the needs of hundreds of millions of people in more than 160 countries. With more than 24,000 employees around the world, we believe in responsible industry leadership and a sustainable approach to business.  Our motto, %u201CPROTECTS WHAT%u2019S GOOD%u2122,\" reflects our vision to make food safe and available, everywhere.%u200B%u200B",
+    "Where do you have offices?": "Lund",
+    "Number of employees": "In Sweden 3 700 and global 24 800",
+    "In what way does your company work for  Sustainability?": "",
+    "Interested in": "Computer Science / InfoCom, Biomedical Engineering, Electrical Engineering",
+    "Offer": "Summer job, Master thesis, Trainee programs",
+    "Name of contact person": "Olle Blomm",
+    "Email of contact person": "dgfsghgsh@libe.com",
+    "Logo-fileName": require("./companieImg/CDON.png")
   }
 ]
 export default companyData

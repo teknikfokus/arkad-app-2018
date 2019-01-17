@@ -3,6 +3,8 @@ import { View } from 'react-native'
 import PropTypes from 'prop-types'
 import ApiLoadingViewContainer from '../../containers/ApiLoadingView'
 import OverviewMap from '../../containers/OverviewMap'
+import DisplayImage from '../../components/DisplayImage'
+import SectionHeader from '../../components/SectionHeader'
 
 const styles = {
   container: {
@@ -15,8 +17,9 @@ const styles = {
 const { container } = styles
 const MapScreen = ({ navigation }) => (
   <View style={container}>
-    <ApiLoadingViewContainer />
-    <OverviewMap navigation={navigation} />
+    <DisplayImage source={require('../../../resources/img/MapE.png')} />
+    {/* <ApiLoadingViewContainer />
+    <OverviewMap navigation={navigation} /> */}
   </View>
 )
 

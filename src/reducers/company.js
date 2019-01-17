@@ -4,8 +4,6 @@ const initialState = {
   searchText: '',
   desiredProgramme: [],
   weOffer: [],
-  industry: [],
-  desiredDegree: [],
   showFavorites: false,
   refreshing: false
 }
@@ -43,9 +41,7 @@ const companyReducer = (state = initialState, action) => {
       return {
         ...state,
         desiredProgramme: [],
-        weOffer: [],
-        industry: [],
-        desiredDegree: []
+        weOffer: []
       }
     default:
       return state

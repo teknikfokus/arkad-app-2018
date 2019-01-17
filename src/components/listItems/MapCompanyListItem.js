@@ -62,7 +62,7 @@ const MapCompanyListItem = ({
           {company.boothNumber}
         </Text>
       </View>
-      <Text style={title}>{company.name}</Text>
+      <Text style={title}>{company.Company}</Text>
       {selectedCompany === company.boothNumber ? (
         <TouchableHighlight
           style={showCompanyButton}
