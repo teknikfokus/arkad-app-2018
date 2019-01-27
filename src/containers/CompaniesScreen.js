@@ -5,12 +5,14 @@ import { loadCompanies } from '../actions/api'
 import { toggleShowFavorites, searchCompany } from '../actions/company'
 import CompaniesScreen from '../screens/Companies/CompaniesScreen'
 
-const filterCategories = (items, desiredProgramme, weOffer) => {
+const filterCategories = (items, desiredProgramme, weOffer, day) => {
   let companies = items
   companies = companies.filter(
     item => (
       desiredProgramme.length !== 0 ? item['Interested in'].includes(desiredProgramme) : true)
       && (weOffer.length !== 0 ? item['Offer'].includes(weOffer) : true)
+      && (day.length !== 0 ? item['Day'].includes(day) : true)
+
   )
   return companies
 }
@@ -56,6 +58,7 @@ const mapStateToProps = state => ({
       require('../../resources/companyInfoTF').default,
       state.companyReducer.desiredProgramme,
       state.companyReducer.weOffer,
+      state.companyReducer.day,
     ),
     state.companyReducer.showFavorites,
     state.favoriteReducer.favorites,

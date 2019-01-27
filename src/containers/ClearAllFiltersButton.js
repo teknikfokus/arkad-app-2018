@@ -6,6 +6,7 @@ import ClearAllFiltersButton from '../components/ClearAllFiltersButton'
 const mapStateToProps = state => ({
   desiredProgramme: state.companyReducer.desiredProgramme,
   weOffer: state.companyReducer.weOffer,
+  day: state.companyReducer.day,
 })
 
 function mapDispatchToProps(dispatch) {

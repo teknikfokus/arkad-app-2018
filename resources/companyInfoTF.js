@@ -13,6 +13,7 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis",
     "Name of contact person": "Nils Nilsson",
     "Email of contact person": "nils@hej.se",
+    "Day": "12 February",
     "Logo-fileName": require("./companieImg/logo.png")
   },
   {
@@ -29,6 +30,7 @@ const companyData = [
     "Offer": "To compete in our competitions",
     "Name of contact person": "",
     "Email of contact person": "",
+    "Day": "12 February",
     "Logo-fileName": require("./companieImg/ventureCup.png")
   },
   {
@@ -45,6 +47,7 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Trainee programs",
     "Name of contact person": "",
     "Email of contact person": "",
+    "Day": "First day of the fair, 12 February",
     "Logo-fileName": require("./companieImg/TetraPak.png")
   },
   {
@@ -61,6 +64,7 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Trainee programs",
     "Name of contact person": "Olle Blomm",
     "Email of contact person": "dgfsghgsh@libe.com",
+    "Day": "13 February",
     "Logo-fileName": require("./companieImg/CDON.png")
   }
 ]

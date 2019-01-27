@@ -90,6 +90,8 @@ class CompanyDetailsScreen extends Component {
         
         <TextSection title={`About ${company.Company}`} description={company['About your company']} />
 
+        <TextSection title="Attending the fair" description={company['Day']} />
+
         <TextArraySection title="We offer" descriptionArray={[company.Offer]} />
         <TextArraySection title="Desired programme" descriptionArray={[company['Interested in']]} />
 

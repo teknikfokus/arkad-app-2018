@@ -2,11 +2,6 @@ import { connect } from 'react-redux'
 import CompanyFilterScreen from '../screens/Companies/CompanyFilterScreen'
 
 const OUR_CUSTOM_FILTERS = {
-  desiredDegree: {
-    children: [],
-    id: 'desiredDegree',
-    name: 'Degrees'
-  },
   desiredProgramme: {
     children: [
       { name: 'Computer Science / InfoCom' },
@@ -14,12 +9,7 @@ const OUR_CUSTOM_FILTERS = {
       { name: 'Electrical Engineering' },
     ],
     id: 'desiredProgramme',
-    name: 'Programs'
-  },
-  industry: {
-    children: [],
-    id: 'industry',
-    name: 'Industries'
+    name: 'Program'
   },
   weOffer: {
     children: [
@@ -29,6 +19,14 @@ const OUR_CUSTOM_FILTERS = {
     ],
     id: 'weOffer',
     name: 'Offers'
+  },
+  day: {
+    children: [
+      { name: '12 February' },
+      { name: '13 February' },
+    ],
+    id: 'day',
+    name: 'Day of Fair'
   }
 }
 

@@ -17,6 +17,7 @@ const FilterSelect = ({
   item,
   desiredProgramme,
   weOffer,
+  day,
   showFavorites,
   toggleShowFavorites,
   addCompanyFilter
@@ -28,6 +29,9 @@ const FilterSelect = ({
       break
     case 'weOffer':
       filter = weOffer
+      break
+    case 'day':
+      filter = day
       break
     default:
   }

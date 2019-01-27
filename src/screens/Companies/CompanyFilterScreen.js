@@ -14,6 +14,9 @@ const CompanyFilterScreen = ({ navigation, filters }) => (
     <Section title="Offers">
       <FilterSelectContainer item={filters.weOffer} />
     </Section>
+    <Section title="Day of Fair">
+      <FilterSelectContainer item={filters.day} />
+    </Section>
     <View style={{ paddingVertical: 8 }}>
       <Button title="Done" onPress={() => navigation.goBack()} />
     </View>

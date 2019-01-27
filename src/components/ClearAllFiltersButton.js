@@ -19,9 +19,10 @@ const { button, buttonText } = styles
 const ClearAllFiltersButton = ({
   desiredProgramme,
   weOffer,
+  day,
   clearCompanyFilter
 }) => {
-  const count = desiredProgramme.length + weOffer.length
+  const count = desiredProgramme.length + weOffer.length + day.length
   return count !== 0 ? (
     <TouchableHighlight style={button} onPress={() => clearCompanyFilter()}>
       <Text style={buttonText}>
