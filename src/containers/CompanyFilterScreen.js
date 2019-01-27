@@ -14,8 +14,9 @@ const OUR_CUSTOM_FILTERS = {
   weOffer: {
     children: [
       { name: 'Summer job' },
+      { name: 'Extra job' },
       { name: 'Master thesis' },
-      { name: 'Trainee programs' },
+      { name: 'Full Time Employment' },
     ],
     id: 'weOffer',
     name: 'Offers'

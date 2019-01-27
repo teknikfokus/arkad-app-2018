@@ -1,12 +1,12 @@
 const initialState = {
   aboutUs:
-    'An awesome fair for almost all students in the E-house',
+    'Teknikfokus is a career fair dedicated towards students in the E and D-guilds at LTH, which includes students who study Computer Science, Information and Communication Engineering, Electrical Engineering and Biomedical Engineering.\nOur goal is to create a platform that, in the best possible way, connects students at LTH with companies and interesting people. We want to inspire students and help them learn so they become KICKASS - thereby create opportunities for both companies and students.\nSince we are students from CS, EE, BME, we focus on Technology, hence the name "Teknikfokus". We believe that Teknikfokus should be a fair where both students and companies can gain insights in their specialised fields.',
   openingHours: [
     { date: '12 Februrary', time: '10:00-16:00' },
     { date: '13 Februrary', time: '10:00-16:00' }
   ],
   aboutArkadTeam:
-    'Teknikfokus consist of the Project Group and Hosts. Around 100 hosts works together with the project group.',
+    'To make Teknikfokus possible, we have a passionate and hard working project group and over 110 volunteers from both the E and D guilds.',
 
   arkadTeam: [
     {
@@ -24,7 +24,7 @@ const initialState = {
           name: 'Jonathan Frisk',
           role: 'Project Manager',
           image: require('../../resources/img/jonathan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/simon-lage-holmqvist/'
+          linkedInUrl: 'https://www.linkedin.com/in/jonathanfrisk/'
         },
         {
           key: '2',
@@ -38,7 +38,7 @@ const initialState = {
           name: 'Keiwan Mosaddegh',
           role: 'Business Manager',
           image: require('../../resources/img/keiwan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/axel-adelgren-4a15a1161'
+          linkedInUrl: 'https://www.linkedin.com/in/keiwan-mosaddegh-38048a88'
         },
         {
           key: '4',
@@ -59,7 +59,7 @@ const initialState = {
           name: 'Ceclilia Huang',
           role: 'Head of Marketing',
           image: require('../../resources/img/cecilia.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/elinbranzell'
+          linkedInUrl: 'http://linkedin.com/in/cecilia-huang-b8067a175'
         },
         {
           key: '7',
@@ -73,7 +73,7 @@ const initialState = {
           name: 'Sanna Nordberg',
           role: 'Head of Recruitment',
           image: require('../../resources/img/sanna.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/andreas-mattsson-76127915a'
+          linkedInUrl: 'http://linkedin.com/in/sanna-nordberg-b989b513a'
         }
       ]
     }
