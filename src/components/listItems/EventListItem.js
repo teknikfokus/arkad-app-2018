@@ -42,7 +42,7 @@ const EventListItem = ({ navigation, item }) => (
 EventListItem.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func.isRequired }).isRequired,
   item: PropTypes.shape({
-    key: PropTypes.string.isRequired,
+    key: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     speaker: PropTypes.string.isRequired,
     startTime: PropTypes.string.isRequired,

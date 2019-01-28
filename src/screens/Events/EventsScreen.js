@@ -23,7 +23,7 @@ EventsScreen.propTypes = {
       title: PropTypes.string.isRequired,
       data: PropTypes.arrayOf(
         PropTypes.shape({
-          key: PropTypes.string.isRequired,
+          key: PropTypes.number.isRequired,
           name: PropTypes.string.isRequired,
           speaker: PropTypes.string.isRequired,
           startTime: PropTypes.string.isRequired,

@@ -41,7 +41,7 @@ const AboutScreen = ({
       description={theApp}
     />
     
-    <DisplayImage source={require('../../../resources/img/ARKAD_logo.png')} />
+    <DisplayImage source={require('../../../resources/img/arkad-logo.png')} />
 
   </DetailsScreen>
 )

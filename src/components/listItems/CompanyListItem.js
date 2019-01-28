@@ -24,7 +24,7 @@ const CompanyListItem = ({ navigation, company }) => (
 CompanyListItem.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func.isRequired }).isRequired,
   company: PropTypes.shape({
-    name: PropTypes.string.isRequired
+    Company: PropTypes.string.isRequired
   }).isRequired
 }
 

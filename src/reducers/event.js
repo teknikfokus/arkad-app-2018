@@ -1,179 +1,120 @@
 const initialState = [
 
   {
-    title: '27 November',
-    data: [
+    "title": "5 February",
+    "data": [
       {
-        key: '1',
-        name: 'Info Sess ',
-        speaker: '',
-        startTime: '12:30',
-        endTime: '13:00',
-        language: '',
-        location: '1406, E-huset',
-        description:
-          'Info om hur det är att vara funktionär på teknikfokus. Kom det blir kul',
-        signUpURL: 'https://www.teknikfokus.se/students'
+        "key": 6,
+    "name": "Lunchföreläsning Softhouse Consulting Öresund AB",
+    "speaker": "",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "language": "Swedish",
+    "location": "E-huset",
+    "description": "Softhouse Consulting is a consultancy company that is excellent at developing solutions with software and developing people and businesses. We’ve been doing this since 1996. Today we are one of the leading companies in Scandinavia within Lean & Agile. Softhouse is a privately-owned Swedish company, that shown growth and profitability every year.",
+    "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+      }
+    ]  
+  },
+  {
+    "title": "6 February",
+    "data": [
+      {
+        "key": 7,
+        "name": "Lunchföreläsning Lime Technologies Sweden AB",
+        "speaker": "",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "language": "Swedish",
+        "location": "E-huset",
+        "description": "At Lime, we love CRM! Since the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 220 colleagues and one of the largest CRM suppliers in the Nordic countries. We are extremely passionate, and we usually say that the only thing we take seriously is our customers. Still interested? Great! We are constantly on the lookout for new and passionate talents with a strong technical interest. Now we are looking for you who wants to be a part of the Nordics sharpest CRM-team and our Nordic Trainee Program with start in January or August every year!",
+        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
       }
     ]
+  },
+  {
+    "title": "7 February",
+    "data": [
+      {
+        "key": 8,
+        "name": "Lunchföreläsning Knightec AB",
+        "speaker": "",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "language": "Swedish",
+        "location": "E-huset",
+        "description": "Knightec is a consultancy specialising in technology, quality and project management for product development, systems and production. Among our customers you find many of Sweden's largest industrial companies within automotive, Life science, security, packaging and industry. Knightec creates a better future via development of people and technology, driven by the belief that a diversified team is the key to success. Right now Knightec consists of more than 30 nationalities and a third of our employees are women. Knightec's ambition is to further increase this diversity. We believe in daring to be the best, exceeding expectations and showing consideration for colleagues and customers.",
+        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+      }
+    ]
+    
+  },
+  {
+    "title": "8 February",
+    "data": [
+      {
+        "key": 9,
+        "name": "Lunchföreläsning Verisure",
+        "speaker": "",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "language": "Swedish",
+        "location": "E-huset",
+        "description": "We are people who protect people.\nEvery day, Verisure does something amazing. By protecting what matters most, we change lives for the better.\nWe protect people beyond expectations, transforming our customers’ lives–and our industry.\nWe do this by building on over 30 years of insights, experience and innovation.\nThe result is peace of mind. It’s a role we are proud to play and will continue to fulfill for generations to come.",
+        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+      }
+    ]
+    
   },
   {
     "title": "12 February",
-    data:[
+    "data": [
       {
-    "key": 2,
-    "name": "FIRST DAY OF FAIR",
-    "speaker": "",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "language": "",
-    "location": "E-huset",
-    "description": "",
-    "signUpURL": ""
+        "key": 10,
+        "name": "FIRST DAY OF FAIR",
+        "speaker": "",
+        "startTime": "10:00",
+        "endTime": "16:00",
+        "language": "",
+        "location": "E-huset",
+        "description": "Vi kopplar ihop de bästa och mest intressanta företag med några av Sveriges bästa studenter, från Lunds Tekniska Högskola. Kom och mingla!",
+        "signUpURL": "https://www.facebook.com/events/1789581374428832/?event_time_id=1789581377762165"
+      }
+    ] 
+  },
+  {
+    "title": "12 February",
+    "data":[
+      {
+        "key": 11,
+        "name": "Banquette",
+        "speaker": "",
+        "startTime": "18:00",
+        "endTime": "23:00",
+        "language": "",
+        "location": "Gasquesalen, Kårhuset",
+        "description": "A wonderful dinner after the first day fair, student and company representants together",
+        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
       }
     ]
+    
   },
   {
     "title": "13 February",
-    data:[
+    "data":[
       {
-    "key": 3,
-    "name": "SECOND DAY OF FAIR",
-    "speaker": "",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "language": "",
-    "location": "E-huset",
-    "description": "",
-    "signUpURL": ""
+        "key": 12,
+        "name": "SECOND DAY OF FAIR",
+        "speaker": "",
+        "startTime": "10:00",
+        "endTime": "16:00",
+        "language": "",
+        "location": "E-huset",
+        "description": "Vi kopplar ihop de bästa och mest intressanta företag med några av Sveriges bästa studenter, från Lunds Tekniska Högskola. Kom och mingla!",
+        "signUpURL": "https://www.facebook.com/events/1789581391095497"
       }
     ]
-  },
-  {
-    title: '5 November',
-    data: [
-      {
-        "key": '4',
-        "name": "The Digital Revolution",
-        speaker: 'Andreas Ekström',
-        startTime: '17:00',
-        endTime: '18:30',
-        language: 'Swedish',
-        location: 'Kårhuset: Aulan',
-        description:
-          'The journalist Andreas Ekström will perform his internationally famous lecture - Seven ways to own the world". It will bring up how power, money and knowledge has been unevenly distributed in the digital revolution, but also the enormous possibilities which have appeared - to build business, new social interplay and the internet that we really want.',
-        signUpURL: ''
-      }
-    ]
-  },
-  {
-    title: '7 November',
-    data: [
-      {
-        key: '5',
-        name: 'Assa Abloy',
-        speaker: '',
-        startTime: '12:15',
-        endTime: '13:00',
-        language: 'English',
-        location: 'Matteannexet: MA7',
-        description:
-          'Come and meet the real people of ASSA ABLOY before ARKAD! Are you curious to learn more about what you can do at ASSA ABLOY and what master thesis projects we have open for application? Our Research and Development colleagues from different parts of our organization will talk you through some interesting topics and opportunities, and are prepared to answer questions about the future, innovation, and more.',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      },
-      {
-        key: '6',
-        name: 'Kodjo Akolor',
-        speaker: '',
-        startTime: '17:00',
-        endTime: '18:30',
-        language: 'Swedish',
-        location: 'Kårhuset: Aulan',
-        description:
-          'Kodjo Akolor, a Swedish comedian famous from Morgonpasset i p3, Musikhjälpen and a lot more is coming to perfom a stand-up show the 7th of November!',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      }
-    ]
-  },
-  {
-    title: '8 November',
-    data: [
-      {
-        key: '7',
-        name: 'ATEA',
-        speaker: '',
-        startTime: '12:15',
-        endTime: '13:00',
-        language: 'Swedish',
-        location: 'Matteannexet: MA7',
-        description:
-          "You're about to make life-changing decisions regarding your future, what's the smarter choice? How can you make the most out of contributing to a more sustainable world, perform on top and at the same time keep challenging yourself and your environment?",
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      },
-      {
-        key: '8',
-        name: 'Snacka Snyggt',
-        speaker: 'Serena Mon de Vienne',
-        startTime: '17:00',
-        endTime: '18:30',
-        language: 'Swedish',
-        location: 'Kårhuset: Aulan',
-        description:
-          'Serena Mon de Vienne from the rhetoric consulting firm Snacka Snyggt will provide all the tips and trix for using the right rhetorics for landing the dream job. How do you avoid the clichés, how do you adjust your rhetorics due to your personal characteristics, how to brag in a trustworthy way without stepping on the toes of jantelagen, and how you can use storytelling to deliver a story in a trustworthy way.',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      }
-    ]
-  },
-  {
-    title: '12 November',
-    data: [
-      {
-        key: '9',
-        name: 'Region Skåne',
-        speaker: '',
-        startTime: '12:15',
-        endTime: '13:00',
-        language: 'Swedish',
-        location: 'E-huset: E:B',
-        description:
-          'Region Skåne operates 10 hospitals, 150 primary care centres and are investing to become the leading region in digitalization of health care in Sweden in 2025. Are you interested in sourcing technology? There are several exciting opportunities coming up now, visit this lunch seminar to know more about your carreer at Region Skåne.',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      }
-    ]
-  },
-  {
-    title: '13 November',
-    data: [
-      {
-        key: '10',
-        name: 'Opening Ceremony ARKAD 2018',
-        speaker: '',
-        startTime: '18:00',
-        endTime: '21:00',
-        language: '',
-        location: 'Kårhuset: Gasquesalen',
-        description:
-          'Come to Gasquesalen and enjoy a spectacular evening with us to celebrate the opening of this year’s ARKAD fair! There will be live music, entertainment and a competition where great knowledge of Lund will be the key for winning the big prize. We will offer delicious appetizers and a wide sortiment of good beverages. Welcome!',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      }
-    ]
-  },
-  {
-    title: '15 November',
-    data: [
-      {
-        key: '11',
-        name: 'Pitch Please',
-        speaker: '',
-        startTime: '12:00',
-        endTime: '13:00',
-        language: '',
-        location: 'Matteannexet: MA7',
-        description:
-          'Come and listen to offers for examination work, internships and trainee employment from companies who want you to work for their organisations. The companies who will pitch their offers are Preem, Sydkraft Hydropower, Tunstall Nordic, and Schibsted Media Group. Lunch will be offered!',
-        signUpURL: 'https://www.arkadtlth.se/events/'
-      }
-    ]
+    
   }
 ]
 

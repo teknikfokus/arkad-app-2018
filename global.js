@@ -9,10 +9,11 @@ global.arkadRed = 'rgb(158, 11, 15)'
 // Custom colors
 global.gray = '#ccc'
 global.lightGray = '#eee'
+global.Bgray ='#aaa'
 global.darkGray = 'rgb(96,96,96)'
 global.subtitleColor = '#999'
 global.separatorColor = '#ccc'
-global.buttonColor = global.darkGray
+global.buttonColor = global.Bgray
 global.rowSelectionColor = '#d9d9d9'
 
 // Map names

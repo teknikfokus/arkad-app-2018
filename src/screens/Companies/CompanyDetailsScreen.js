@@ -55,7 +55,7 @@ class CompanyDetailsScreen extends Component {
 
 CompanyDetailsScreen.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func.isRequired }).isRequired,
-  favorites: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+  favorites: PropTypes.arrayOf(PropTypes.number.isRequired).isRequired,
   toggleFavorite: PropTypes.func.isRequired,
   toggleChangeMap: PropTypes.func.isRequired,
   toggleChangeCompany: PropTypes.func.isRequired

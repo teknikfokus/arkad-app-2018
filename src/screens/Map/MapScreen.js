@@ -10,14 +10,14 @@ const styles = {
   container: {
     width: '100%',
     height: '100%',
-    backgroundColor: global.arkadLightBlue
+    backgroundColor: '#fff'
   }
 }
 
 const { container } = styles
 const MapScreen = ({ navigation }) => (
   <View style={container}>
-    <DisplayImage source={require('../../../resources/img/MapE.png')} />
+    <DisplayImage source={require('../../../resources/img/MapTeknikfokus.png')} />
     {/* <ApiLoadingViewContainer />
     <OverviewMap navigation={navigation} /> */}
   </View>

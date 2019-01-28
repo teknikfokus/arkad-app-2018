@@ -18,13 +18,13 @@ const FavoriteButton = ({ company, favorites, toggleFavorite }) => {
   )
 }
 
-FavoriteButton.propTypes = {
-  company: PropTypes.shape({
-    key: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired
-  }).isRequired,
-  favorites: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-  toggleFavorite: PropTypes.func.isRequired
-}
+// FavoriteButton.propTypes = {
+//   company: PropTypes.shape({
+//     key: PropTypes.number.isRequired,
+//     Company: PropTypes.string.isRequired
+//   }).isRequired,
+//   favorites: PropTypes.arrayOf(PropTypes.number.isRequired).isRequired,
+//   toggleFavorite: PropTypes.func.isRequired
+// }
 
 export default FavoriteButton

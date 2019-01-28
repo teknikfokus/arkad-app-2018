@@ -132,32 +132,13 @@ CompaniesScreen.propTypes = {
   navigation: PropTypes.shape({ navigate: PropTypes.func.isRequired }).isRequired,
   companyList: PropTypes.arrayOf(
     PropTypes.shape({
-      key: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      about: PropTypes.string.isRequired,
-      didYouKnow: PropTypes.string.isRequired,
+      key: PropTypes.number.isRequired,
+      Company: PropTypes.string.isRequired,
+      AboutCompany: PropTypes.string.isRequired,
 
-      employees: PropTypes.shape({
-        local: PropTypes.string.isRequired,
-        global: PropTypes.string.isRequired
-      }).isRequired,
+      Offer: PropTypes.string.isRequired,
 
-      weOffer: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-      desiredProgramme: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
-      
-      contact: PropTypes.shape({
-        name: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-        email: PropTypes.string.isRequired,
-        phone: PropTypes.string.isRequired
-      }).isRequired,
 
-      map: PropTypes.string.isRequired,
-
-      logotypeUrl: PropTypes.string.isRequired,
-      brochureUrl: PropTypes.string.isRequired,
-      websiteUrl: PropTypes.string.isRequired,
-      linkedInUrl: PropTypes.string.isRequired
     })
   ).isRequired,
   searchText: PropTypes.string.isRequired,
