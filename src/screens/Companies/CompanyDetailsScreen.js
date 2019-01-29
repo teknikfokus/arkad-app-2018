@@ -46,7 +46,7 @@ class CompanyDetailsScreen extends Component {
         
         <TextSection title="Offies locations" description={company['OfficeLocation']} />
         <TextSection title="Sustainability" description={company['SustainabilityWork']} />
-        <TextSection title="Contact" description={company['Name of contact person'] + "\n " + company['Email of contact person']}/>
+        <TextSection title="Contact" description={company['Name of contact person'] + "\n" + company['Email of contact person']}/>
           
       </DetailsScreen>
     )

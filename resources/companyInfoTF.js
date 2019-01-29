@@ -10,7 +10,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis",
     "Name of contact person": "Anna Tunberg",
     "Email of contact person": "anna@academicsolutions.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/AcademicSolution.png")
   },
@@ -25,7 +24,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Full Time Employment",
     "Name of contact person": "My Jensen",
     "Email of contact person": "my.jensen@academicwork.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/AcademicWork.png")
   },
@@ -40,14 +38,13 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Sanna Rosell",
     "Email of contact person": "sanna.rosell@acando.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Acando.png")
   },
   {
     "key": 4,
-    "Company": "Accenture A/S",
-    "AboutCompany": "•\tAccenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology, security and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – we work at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 469,000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives.",
+    "Company": "Accenture",
+    "AboutCompany": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology, security and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – we work at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 469,000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives.",
     "OfficeLocation": "Stockholm, Copenhagen, Oslo, Malmö, Göteborg",
     "Number of employees": "In Sweden 1300, global 469.000",
     "SustainabilityWork": "From gender equality and climate action to decent work and economic growth and quality education, we are committed to addressing the United Nations’ Global Goals and contributing to the new sustainable development agenda.",
@@ -55,7 +52,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Accenture.png")
   },
@@ -70,7 +66,6 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "info@acconeer.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Acconeer.png")
   },
@@ -85,7 +80,6 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "Lars Nagy",
     "Email of contact person": "lars.nagy@advenica.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/advencia.png")
   },
@@ -100,7 +94,6 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Anna Grane",
     "Email of contact person": "anna.grane@afconsult.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/AF.jpg")
   },
@@ -115,7 +108,6 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full time job after ended studies, apply at http://airthings.com/careers",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Airthings.png")
   },
@@ -130,7 +122,6 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Mathilda Green",
     "Email of contact person": "mathilda.green@alten.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/alten.png")
   },
@@ -145,9 +136,8 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "Katie Daines",
     "Email of contact person": "katie.daines@arm.com",
-    "": "",
     "Day": "12 February",
-    "Logo-fileName": require("./companieImg/Teknikfokus.png")
+    "Logo-fileName": require("./companieImg/arm.png")
   },
   {
     "key": 11,
@@ -160,7 +150,6 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Babak Vahidi",
     "Email of contact person": "babak@auranest.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/auranest.png")
   },
@@ -175,7 +164,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Emmy Lagergren",
     "Email of contact person": "emmy.lagergren@axis.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Axis.png")
   },
@@ -189,10 +177,9 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom, Electrical Engineering",
     "Offer": "Summer job, Extra job, Master thesis",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "12 February",
-    "Logo-fileName": require("./companieImg/Teknikfokus.png")
+    "Logo-fileName": require("./companieImg/bosch.png")
   },
   {
     "key": 14,
@@ -205,9 +192,8 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Moa Tollstam",
     "Email of contact person": "moa.tollstam@capgemini.com",
-    "": "",
     "Day": "13 February",
-    "Logo-fileName": require("./companieImg/Teknikfokus.png")
+    "Logo-fileName": require("./companieImg/Capgemini.png")
   },
   {
     "key": 15,
@@ -220,7 +206,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Jaqueline Johansson Salonen",
     "Email of contact person": "jasa@cellavision.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/CellaVision.png")
   },
@@ -235,7 +220,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Rikard Windh",
     "Email of contact person": "rikard@combain.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Combian.png")
   },
@@ -250,7 +234,6 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Jenny Franzén",
     "Email of contact person": "jenny.franzen@consid.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/consid.png")
   },
@@ -265,7 +248,6 @@ const companyData = [
     "Offer": "Master thesis",
     "Name of contact person": "Sanna Lindberg",
     "Email of contact person": "sanna.lindberg@cybercom.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/CybercomG.png")
   },
@@ -280,7 +262,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/DanskeBank.png")
   },
@@ -295,7 +276,6 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment, Internship",
     "Name of contact person": "Poya Ataei",
     "Email of contact person": "poya.ataei@dirac.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/DiracResearch.png")
   },
@@ -310,7 +290,6 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full time positions",
     "Name of contact person": "Lisa Boberg",
     "Email of contact person": "lisa.boberg@ericsson.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/ericsson.png")
   },
@@ -325,7 +304,6 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "Rickard Nygren",
     "Email of contact person": "rickard.nygren@grade.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Grade.png")
   },
@@ -340,7 +318,6 @@ const companyData = [
     "Offer": "Summer job, Full Time Employment",
     "Name of contact person": "Christina Jonéus",
     "Email of contact person": "cjo@hmocue.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/hemocue.png")
   },
@@ -355,7 +332,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Louise Odin",
     "Email of contact person": "Loo@hms.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/hms.png")
   },
@@ -369,8 +345,7 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom",
     "Offer": "Summer job, Extra job, Master thesis, Full-time employment",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/InfraSightLabs.png")
   },
@@ -385,7 +360,6 @@ const companyData = [
     "Offer": "Voluntary work",
     "Name of contact person": "EWB Lund",
     "Email of contact person": "lund@ewb-swe.org",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/IngenjorerUtanGranser.jpg")
   },
@@ -400,7 +374,6 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Studio leads",
     "Email of contact person": "careers@jayway.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Jayway.png")
   },
@@ -415,7 +388,6 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/KNIGHTEC.jpg")
   },
@@ -429,8 +401,7 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom, Electrical Engineering",
     "Offer": "Extra job, Master thesis",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/knowit.png")
   },
@@ -445,7 +416,6 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment, Trainee program",
     "Name of contact person": "Cornelia Olsérius",
     "Email of contact person": "cornelia.olserius@lime.tech",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Lime.png")
   },
@@ -460,7 +430,6 @@ const companyData = [
     "Offer": "Master thesis",
     "Name of contact person": "Roger von Moltzer",
     "Email of contact person": "roger.von_moltzer@lth.lu.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/LTH.png")
   },
@@ -475,7 +444,6 @@ const companyData = [
     "Offer": "Extra job",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Lunicore.png")
   },
@@ -490,7 +458,6 @@ const companyData = [
     "Offer": "Master thesis",
     "Name of contact person": "Anna Wanland",
     "Email of contact person": "anna.wanland@medicinskbildteknik.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/MedicalImagingTech.jpg")
   },
@@ -505,7 +472,6 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Fredrika Olsson",
     "Email of contact person": "fredrika.olsson@neodev.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Neodev.png")
   },
@@ -520,7 +486,6 @@ const companyData = [
     "Offer": "Full Time Employment, Extra job",
     "Name of contact person": "Anne Honum Høy Jørgensen",
     "Email of contact person": "ahhj@netcompany.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Netcompany.png")
   },
@@ -535,7 +500,6 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Talent Search Netlight",
     "Email of contact person": "jobs@netlight.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Netlight.png")
   },
@@ -550,7 +514,6 @@ const companyData = [
     "Offer": "Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Carina Palmqvist",
     "Email of contact person": "carina.palmqvist@norconsult.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/NoISAstando.png")
   },
@@ -565,7 +528,6 @@ const companyData = [
     "Offer": "Full Time Employment, Graduate Program",
     "Name of contact person": "Kirsten Nielsen",
     "Email of contact person": "it.talent@nordea.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Nordea.png")
   },
@@ -580,9 +542,8 @@ const companyData = [
     "Offer": "Summer job, Full Time Employment, Traineeprogram",
     "Name of contact person": "Anna Fredricson",
     "Email of contact person": "anna.fredricson@one-nordic.se",
-    "": "",
     "Day": "12 February",
-    "Logo-fileName": require("./companieImg/Teknikfokus.png")
+    "Logo-fileName": require("./companieImg/one.png")
   },
   {
     "key": 40,
@@ -595,12 +556,39 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment, New Grad Programme",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Qlik.jpg")
   },
   {
     "key": 41,
+    "Company": "Scientific EdTech AB",
+    "AboutCompany": "Scientific EdTech is developing the optimal digital learning tool for teaching basic math to 7-9 year old children across the world. Our solution helps children find the fun in math, using easy and effective tools. Our short-term goal is to help children succeed in math so they can live better lives. Our long-term goal is to increase the countries’ PISA scores and GDP by providing solid education.",
+    "OfficeLocation": "Lund",
+    "Number of employees": 3,
+    "SustainabilityWork": "Travels by train instead of aeroplane when possible.",
+    "Interested in": "Computer Science / InfoCom",
+    "Offer": "Master thesis, Full Time Employment",
+    "Name of contact person": "Martin Hassler Hallstedt",
+    "Email of contact person": "martin@scientificedtech.com",
+    "Day": "13 February",
+    "Logo-fileName": require("./companieImg/Scientific.png")
+  },
+  {
+    "key": 42,
+    "Company": "Sectra",
+    "AboutCompany": "At Sectra we want to use our passion for technology to contribute to a better world. Sectra develops and sells IT systems and products for imaging management within healthcare. More than 1,800 hospitals worldwide use Sectra’s systems daily. We also have core expertise in encryption technology. Sectra was founded in 1978 and has its roots in Linköping University in Sweden.",
+    "OfficeLocation": "Linköping, Stockholm, Örebro",
+    "Number of employees": "In Sweden 350 and Global 700",
+    "SustainabilityWork": "",
+    "Interested in": "Computer Science / InfoCom, Biomedical Engineering",
+    "Offer": "Summer job, Master thesis, Full Time Employment",
+    "Name of contact person": "Per Henningsson",
+    "Email of contact person": "per.henningsson@sectra.com",
+    "Day": "12 February",
+    "Logo-fileName": require("./companieImg/Sectra.png")
+  },
+  {
+    "key": 43,
     "Company": "Sentian.ai",
     "AboutCompany": "Sentian.ai is a fast growing AI company offering both products and services. We have big customers, a lot of experience and data. En mycket utvecklande miljö utlovas!",
     "OfficeLocation": "Malmö",
@@ -609,13 +597,12 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom",
     "Offer": "Summer job, Extra job, Master thesis, Jobs",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/SentianAI.png")
   },
   {
-    "key": 42,
+    "key": 44,
     "Company": "Siemens",
     "AboutCompany": "We’re changing the cities you live in, the places you work, the energy that powers your home, and the way the products you love are manufactured.\n\nBy reimagining the world around us, creating solutions to the most challenging problems and making infrastructure more intuitive, we’re improving the lives of people today and for generations to come.",
     "OfficeLocation": "HQ in Stockholm. Main offices in Malmö, Göteborg och Sundsvall",
@@ -625,12 +612,11 @@ const companyData = [
     "Offer": "Summer job, Extra job, Master thesis",
     "Name of contact person": "Annah Håkansson",
     "Email of contact person": "annah.hakansson@siemens.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Siemens.jpg")
   },
   {
-    "key": 43,
+    "key": 45,
     "Company": "Sigma IT Consulting",
     "AboutCompany": "Sigma IT Consulting har idag ca 1 200 medarbetare. Vi drivs av vår vision Expect a Better Tomorrow. \nVi arbetar med tekniska och innovativa IT-lösningar åt våra kunder inom framförallt digitalisering & webb, IoT och AI. Våra erbjudanden omfattar även projektledning, kravhantering, testning, BI och Data Science.\nIndividuella utbildningspaket och certifieringar är några utav våra många förmåner. Vi tror på Work & Life balance! Pingisturneringar, schackspel, ölprovning o andra teamaktiviteter gör att sammanhållningen är på topp! Som kollektivanslutna har vi ett generöst friskvårdsbidrag och belönar oss själva med gemensamma resor och aktiviteter när vi uppnått våra satta mål!",
     "OfficeLocation": "Malmö, Göteborg, Stockholm o runt 20 andra städer i Sverige",
@@ -640,12 +626,11 @@ const companyData = [
     "Offer": "Full Time Employment",
     "Name of contact person": "Maria Jaern Ekengren",
     "Email of contact person": "maria.jaern.ekengren@sigma.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Sigma.png")
   },
   {
-    "key": 44,
+    "key": 46,
     "Company": "Smart Refill",
     "AboutCompany": "Smart Refill develops secure payment and information solutions for the telecom and fintech sectors. Our mobile and web-based services make life a little simpler for the users and helps our customers develop their digital offer.\n\nWe take care of the entire development process from start to finish: building applications, managing operations, and providing maintenance and app updates. Together with the customer, we design tailor-made applications with a short time-to-market thanks to our modular platform of services. And you can always feel safe: we are PCI DSS Level 1 certified and an approved Payment service provider by Finansinspektionen (Swedish Financial Supervisory Authority).",
     "OfficeLocation": "Helsingborg, Taipei, Stockholm",
@@ -655,12 +640,11 @@ const companyData = [
     "Offer": "Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/SmartRefill.png")
   },
   {
-    "key": 45,
+    "key": 47,
     "Company": "Softhouse Consulting",
     "AboutCompany": "We are a consultancy company that is excellent at developing solutions with software and developing people and businesses. We’ve been doing this since 1996. Today we are one of the leading companies in Scandinavia within Lean & Agile. Softhouse is a privately-owned Swedish company, that shown growth and profitability every year.",
     "OfficeLocation": "Malmö, Helsingborg, Växjö, Karlskrona, Jönköping, Stockholm, Sarajevo",
@@ -670,12 +654,25 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Ola Persson",
     "Email of contact person": "ola.persson@softhouse.se",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/Softhouse.jpg")
   },
   {
-    "key": 46,
+    "key": 48,
+    "Company": "Soreco AB",
+    "AboutCompany": "Soreco is all about Social and Regulatory Compliance. We are a startup company that is developing a groudbreaking tool for product compliance. All sold consumer products must fullfil the latest set of reguatory rules and regulatons, such as environmental, safety, radio  etc. This is were our tool www.regmat.com is making diffrence, we are helping great companies being good. \nWe are looking for people with C+ and SQL database knowledge.",
+    "OfficeLocation": "Lund, Ideon",
+    "Number of employees": 2,
+    "SustainabilityWork": "Our tool www.regmat.com is helping our customers to deliver according to the latest set of environmental rules and regulation, our vission is to create a governance for all type of e-commerce so this products also are following the latest set of rules regarding sustainability and saftey.",
+    "Interested in": "Computer Science / InfoCom",
+    "Offer": "Extra job, Master thesis, Full Time Employment",
+    "Name of contact person": "Ingemar Thulin",
+    "Email of contact person": "ingemar.thulin@soreco.se",
+    "Day": "13 February",
+    "Logo-fileName": require("./companieImg/Soreco.png")
+  },
+  {
+    "key": 49,
     "Company": "Storytel",
     "AboutCompany": "We believe in stories and want to be the obvious choice for all audiobook lovers. Today, we are offering tens of thousands of audiobooks and e-books and more than 700 000 subscribers worldwide use Storytel to inspire and entertain. Storytel is an entrepreneur-driven company and is growing rapidly. We are the market leader for streamed audiobooks in Sweden and our focus is to supply a great experience to our customers and have fun at work! We love what we do!",
     "OfficeLocation": "Lund, Stockholm, Köpenhamn, Umeå",
@@ -685,12 +682,11 @@ const companyData = [
     "Offer": "Master thesis, Full time employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Storytel.png")
   },
   {
-    "key": 47,
+    "key": 50,
     "Company": "Sveriges Ingenjörer",
     "AboutCompany": "Ditt liv som ingenjör börjar nu\n\nSveriges Ingenjörer välkomnar dig till vårt unika nätverk med 150 000 ingenjörsmedlemmar. Som medlem erbjuder vi dig träning och stöd inför skarpt läge med allt från cv-granskning och karriärcoachning till hjälp med intervjuteknik. Du tar även del av landets bästa lönestatistik, digitaltidningen Ny Teknik samt aktiviteter som hålls på ditt lärosäte. Dessutom har du möjlighet att teckna förmånliga försäkringar och du har tillgång till experthjälp om något skulle gå snett på sommar eller extrajobbet.\n\nVälkommen att börja ditt liv som ingenjör med oss!",
     "OfficeLocation": "Stockholm",
@@ -700,12 +696,11 @@ const companyData = [
     "Offer": "Extra job",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/SverigesIngenjorer.png")
   },
   {
-    "key": 48,
+    "key": 51,
     "Company": "Systemite",
     "AboutCompany": "We love system engineering and software development. Working at Systemite means we get to do just that – all day, with an awesome group of people. And since others love what we do too, our need for skilled people is growing. Systemite provides one of the market's most advanced information management platforms for system engineering and software development.\n\nOur product SystemWeaver enables easy integration of company design information for each component and weaves all the information together in one system. SystemWeaver has become an important platform in the automotive industry where we work with customers such as Nevs, Volvo Cars and Volvo Trucks.",
     "OfficeLocation": "Göteborg",
@@ -715,12 +710,11 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Matilda Boberg",
     "Email of contact person": "matilda.boberg@systemite.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/systemite.png")
   },
   {
-    "key": 49,
+    "key": 52,
     "Company": "Tactel",
     "AboutCompany": "Tactel is a design and technology agency that develops digital solutions to make life easier for millions of people. We combine our knowledge about end users' needs and their expectations on digital services, with solid knowledge in design and development in order to design services that are easy to work with and familiar to all users.\n\nThrough innovation, smart design and advanced technology, we develop digital services that break new ground. To realize the best innovative solutions with high quality we work together, we are one team, consisting of designers, software developers and testers.",
     "OfficeLocation": "Malmö, Stockholm, Umeå",
@@ -730,12 +724,11 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment",
     "Name of contact person": "Isabel Holm",
     "Email of contact person": "isabel.holm@tactel.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/TACTEL.png")
   },
   {
-    "key": 50,
+    "key": 53,
     "Company": "Telavox",
     "AboutCompany": "Telavox consists of 250 curious employees who never fear the challenge of finding new ways. We are an agile IT company with ants in our pants and we have disrupted the telecom industry since 2003 with our great product. We offer a creative environment, a lot of own responsibilities, flexible work hours and the opportunity to grow with us. It is super important for us to laugh a lot while working and we love spending time together. Come and talk to us if you are dedicated to program yourself into the future along with awesome colleagues!",
     "OfficeLocation": "Malmö, Stockholm, Jönköping, Oslo, Helsingfors, Aarhus, London",
@@ -745,12 +738,11 @@ const companyData = [
     "Offer": "Master thesis, Full time job after studies",
     "Name of contact person": "Victoria Linden",
     "Email of contact person": "victoria.linden@telavox.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/telavox.png")
   },
   {
-    "key": 51,
+    "key": 54,
     "Company": "Tetra Pak",
     "AboutCompany": "Tetra Pak is the world's leading food processing and packaging solutions company. Working closely with our customers and suppliers, we provide safe, innovative and environmentally sound products that each day meet the needs of hundreds of millions of people in more than 160 countries. With more than 24,000 employees around the world, we believe in responsible industry leadership and a sustainable approach to business.  Our motto, “PROTECTS WHAT’S GOOD™,\" reflects our vision to make food safe and available, everywhere.​​",
     "OfficeLocation": "Lund",
@@ -760,12 +752,11 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Trainee programs",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/TetraPak.png")
   },
   {
-    "key": 52,
+    "key": 55,
     "Company": "Tink",
     "AboutCompany": "We are data-driven banking.\n\nTink enables banks and financial institutions to become data-driven through smart, precise, future-proof technology. \n\nFounded in Stockholm in 2012, our partners include Nordea, BNP Paribas Fortis, Klarna, ABN AMRO and SEB. Through our technology, our mission is to help people understand their finances, empower them to make smarter decisions and ultimately bring financial happiness. Tink has raised over 250 million SEK in venture capital and in the past 18 months we have grown from 30 to over 130 people.",
     "OfficeLocation": "Stockholm",
@@ -774,13 +765,12 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom",
     "Offer": "Summer job, Extra job, Master thesis, Full time employment",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/tink.png")
   },
   {
-    "key": 53,
+    "key": 56,
     "Company": "Trafikverket",
     "AboutCompany": "Sverige är ett stort, avlångt och glest befolkat land. För att allt ska fungera måste vi kunna ta oss till varandra. Det handlar om allt från arbetspendling, släktkalas och matcher som ska spelas, till gods som ska levereras och tomater som ska hamna på tallriken. Här har Trafikverket en avgörande roll. Vi har ansvaret för att underhålla och rusta upp tiotusentals mil av järnväg, vägar och färjeförbindelser. Samtidigt utvecklar vi hela infrastrukturen genom innovativa lösningar som bidrar till att nå både klimatmålen och nollvisionen. Men framför allt ser vi till att korta avstånden mellan människor och företag. Mellan stad och land. Mellan generationer och landsändar.",
     "OfficeLocation": "Hela Sverige",
@@ -790,12 +780,11 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Trainee",
     "Name of contact person": "Fanny Edfeldt",
     "Email of contact person": "Fanny.edfeldt@trafikverket.se",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/Trafikverket.gif")
   },
   {
-    "key": 54,
+    "key": 57,
     "Company": "u-blox",
     "AboutCompany": "Swiss-based u-blox (SIX:UBXN) is the global leader in wireless and positioning semiconductors for the automotive, industrial and consumer markets. Our solutions enable people, vehicles and machines to locate their exact position and wirelessly communicate via voice, text or video. With a broad portfolio of chips, modules and software solutions, u-blox is uniquely positioned to allow OEMs to develop innovative solutions that enable mobility quickly and cost-effectively. With headquarters in Thalwil, Switzerland, u-blox is globally present with offices in Europe, Asia and the USA.",
     "OfficeLocation": "Malmö",
@@ -805,12 +794,11 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "Tina Grönquist",
     "Email of contact person": "tina.gronquist@u-blox.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/ublox.png")
   },
   {
-    "key": 55,
+    "key": 58,
     "Company": "Unity Technologies",
     "AboutCompany": "Unity is the creator of the world’s most widely-used real-time 3D (RT3D) development platform, providing content creators around the world with the tools they need to build rich, interactive 2D, 3D, VR and AR experiences. In fact, apps made with Unity reach 2.7 billion devices worldwide, and were installed more than 24 billion times in the last 12 months.",
     "OfficeLocation": "Copenhagen, Stockholm",
@@ -820,12 +808,11 @@ const companyData = [
     "Offer": "Extra job, Full Time Employment",
     "Name of contact person": "Jessica Hughes",
     "Email of contact person": "jessicah@unity3d.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/unity.png")
   },
   {
-    "key": 56,
+    "key": 59,
     "Company": "Venture Cup",
     "AboutCompany": "Venture Cup have supported tens of thousands of entrepreneurs and helped nearly 15 000 ideas to blossom since the start in 1998. We are Sweden's no. 1 competition and the competition where ideas become businesses. Each year we arrange two competitions, IDEA and STARTUP. The spring is all about startups in an early phase, and during the fall the competition is all about ideas. By challenging yourself, meet our network and get feedback on the business idea, both the entrepreneur and the business idea develops during the competition process.",
     "OfficeLocation": "Lund, Göteborg, Stockholm, Umeå and Luleå",
@@ -834,13 +821,12 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom, Biomedical Engineering, Electrical Engineering",
     "Offer": "To compete in our competitions",
     "Name of contact person": "",
-    "Email of contact person": "?",
-    "": "",
+    "Email of contact person": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/ventureCup.png")
   },
   {
-    "key": 57,
+    "key": 60,
     "Company": "Verisure",
     "AboutCompany": "We are people who protect people.\nEvery day, Verisure does something amazing. By protecting what matters most, we change lives for the better.\nWe protect people beyond expectations, transforming our customers’ lives–and our industry.\nWe do this by building on over 30 years of insights, experience and innovation.\nThe result is peace of mind. It’s a role we are proud to play and will continue to fulfill for generations to come.",
     "OfficeLocation": "Malmö, Linköping, Stockholm and 14 countries across Europe and Latin American.",
@@ -850,12 +836,11 @@ const companyData = [
     "Offer": "Extra job, Master thesis, Full Time Employment",
     "Name of contact person": "Mette Schäfer",
     "Email of contact person": "mette.schafer@verisure.com",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/verisure.png")
   },
   {
-    "key": 58,
+    "key": 61,
     "Company": "Visma",
     "AboutCompany": "Visma offers software and services that simplify and digitise core business\nprocesses in the private and public sector. The group operates across the entire\nNordic region along with Benelux, Central and Eastern Europe. With over 8,000\nemployees and more than 800,000 customers, Visma is one of Europe’s leading\nsoftware companies. Visit Visma.se/karriar",
     "OfficeLocation": "Stockholm, Göteborg, Malmö, Eskilstuna, Gävle, Halmstad, Helsingborg, Hudiksvall, Jonsered, Kalmar, Karlstad, Kristianstad, Linköping, Lund, Munkedal, Norrköping, Piteå, Skellefteå, Skövde, Staffanstorp, Bromma, Sundsvall, Umeå, Uppsala, Växjö, Västerås, Ängelholm, Örnsköldsvik, Örebro",
@@ -865,12 +850,11 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment, Management Trainee program",
     "Name of contact person": "Kajza Zellman Sjööblom",
     "Email of contact person": "kajza.zellman@visma.com",
-    "": "",
     "Day": "12 February",
     "Logo-fileName": require("./companieImg/visma.png")
   },
   {
-    "key": 59,
+    "key": 62,
     "Company": "Volvo Car Corporation",
     "AboutCompany": "Volvo Cars is a company on a mission; to bring traditional car manufacturing into a connected, sustainable and smart future.\nWe are a brand known for our commitment to safety, creating innovative cars that make life less complicated for people. We are looking for innovative, committed people to create safe, sustainable and connected cars.\nJoin us and be part of Volvo Cars’ journey into the future!",
     "OfficeLocation": "Lund, Copenhagen, Göteborg, Stockholm",
@@ -880,9 +864,23 @@ const companyData = [
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "": "",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/volvo.png")
+  },
+  {
+    "key": 63,
+    "Company": "IAESTE Lund",
+    "AboutCompany": "IAESTE is your ticket out into the world! With our global network, we send thousands of students every year on the adventure of a life time by connecting them with the companies we collaborate with. So no matter if you want to make 3D blueprints in Switzerland or work for an architectural firm in Turkey - visit us at Teknikfokus or online at iaeste.se",
+    "OfficeLocation": "Lund, Gothenburg, Uppsala, Linköping, Stockholm, Luleå and Umeå",
+    "Number of employees": "About 70 volunteering students in Sweden",
+    "SustainabilityWork": "",
+    "Interested in": "Computer Science / InfoCom, Biomedical Engineering, Electrical Engineering",
+    "Offer": "Summer job, Payed internships",
+    "Name of contact person": "Elvira Häggström",
+    "Email of contact person": "lund@iaeste.se",
+    "Day": "13 February",
+    "Logo-fileName": require("./companieImg/IAESTE.jpg")
   }
 ]
+  
 export default companyData

@@ -17,7 +17,7 @@ const initialState = {
           name: 'Johan Vikstrand',
           role: 'Project Manager',
           image: require('../../resources/img/johan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/christian-håkansson-762223b4'
+          linkedInUrl: 'https://www.linkedin.com/in/johanvikstrand/'
         },
         {
           key: '1',
@@ -45,14 +45,14 @@ const initialState = {
           name: 'Olivia Wiaczek',
           role: 'Business Manager',
           image: require('../../resources/img/olivia.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/louise-pettersson-2b2296153'
+          linkedInUrl: 'https://www.linkedin.com/in/olivia-wiaczek-447a0b173'
         },
         {
           key: '5',
           name: 'Måns Lindeberg',
           role: 'Head of Logistics',
           image: require('../../resources/img/mans.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/nicolas-munke-cilano/'
+          linkedInUrl: 'https://www.linkedin.com/in/m%C3%A5ns-lindeberg-098534177/'
         },
         {
           key: '6',
@@ -66,7 +66,7 @@ const initialState = {
           name: 'Björn Johnsson',
           role: 'Event Manager',
           image: require('../../resources/img/bjorn.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/erik-hagman-ba8120158/'
+          linkedInUrl: 'http://linkedin.com/in/björn-johnsson-320203172'
         },
         {
           key: '8',

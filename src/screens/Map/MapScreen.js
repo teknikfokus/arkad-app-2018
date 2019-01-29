@@ -17,7 +17,7 @@ const styles = {
 const { container } = styles
 const MapScreen = ({ navigation }) => (
   <View style={container}>
-    <DisplayImage source={require('../../../resources/img/MapTeknikfokus.png')} />
+    <DisplayImage source={require('../../../resources/img/KartaTekFok.png')} />
     {/* <ApiLoadingViewContainer />
     <OverviewMap navigation={navigation} /> */}
   </View>
