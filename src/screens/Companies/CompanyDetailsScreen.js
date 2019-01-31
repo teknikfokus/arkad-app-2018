@@ -32,6 +32,12 @@ class CompanyDetailsScreen extends Component {
     } = this.props
     const company = navigation.state.params.item
 
+    let contactInfo = ''
+    if (company['Name of contact person'] !== '') {
+      contactInfo = company['Name of contact person'] + "\n"
+    }
+    contactInfo += company['Email of contact person']
+
     return (
       <DetailsScreen>
         <DisplayImage source={company['Logo-fileName']} />
@@ -45,8 +51,12 @@ class CompanyDetailsScreen extends Component {
 
         
         <TextSection title="Offies locations" description={company['OfficeLocation']} />
-        <TextSection title="Sustainability" description={company['SustainabilityWork']} />
-        <TextSection title="Contact" description={company['Name of contact person'] + "\n" + company['Email of contact person']}/>
+
+
+        { company['SustainabilityWork'] !== '' && <TextSection title="Sustainability" description={company['SustainabilityWork']} /> }
+
+
+        { contactInfo !== '' && <TextSection title="Contact" description={contactInfo}/>}
           
       </DetailsScreen>
     )

@@ -52,7 +52,7 @@ const companyData = [
     "Offer": "Summer job, Extra job, Full Time Employment",
     "Name of contact person": "",
     "Email of contact person": "",
-    "Day": "13 February",
+    "Day": "12 February",
     "Logo-fileName": require("./companieImg/Accenture.png")
   },
   {
@@ -81,7 +81,7 @@ const companyData = [
     "Name of contact person": "Lars Nagy",
     "Email of contact person": "lars.nagy@advenica.com",
     "Day": "13 February",
-    "Logo-fileName": require("./companieImg/advencia.png")
+    "Logo-fileName": require("./companieImg/advenica.png")
   },
   {
     "key": 7,
@@ -579,7 +579,7 @@ const companyData = [
     "AboutCompany": "At Sectra we want to use our passion for technology to contribute to a better world. Sectra develops and sells IT systems and products for imaging management within healthcare. More than 1,800 hospitals worldwide use Sectra’s systems daily. We also have core expertise in encryption technology. Sectra was founded in 1978 and has its roots in Linköping University in Sweden.",
     "OfficeLocation": "Linköping, Stockholm, Örebro",
     "Number of employees": "In Sweden 350 and Global 700",
-    "SustainabilityWork": "",
+    "SustainabilityWork": "Sectra aims to improve society by helping to make it healthier and safer. Acting responsibly with respect to customers, employees, regulations and the environment is a natural consequence of our vision and mission statements.\nFor more info on how we’re contributing to the UN Sustainable Development Goals and the realization of Agenda 2030, visit https://career.sectra.com/working-at-sectra/sustainability/.",
     "Interested in": "Computer Science / InfoCom, Biomedical Engineering",
     "Offer": "Summer job, Master thesis, Full Time Employment",
     "Name of contact person": "Per Henningsson",
