@@ -12,7 +12,7 @@ const initialState = [
     "language": "Swedish",
     "location": "E:B, E-huset",
     "description": "Softhouse Consulting is a consultancy company that is excellent at developing solutions with software and developing people and businesses. We’ve been doing this since 1996. Today we are one of the leading companies in Scandinavia within Lean & Agile. Softhouse is a privately-owned Swedish company, that shown growth and profitability every year.",
-    "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+    "signUpURL": "https://www.facebook.com/events/310808449568745/"
       }
     ]  
   },
@@ -28,7 +28,7 @@ const initialState = [
         "language": "Swedish",
         "location": "E:B, E-huset",
         "description": "At Lime, we love CRM! Since the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 220 colleagues and one of the largest CRM suppliers in the Nordic countries. We are extremely passionate, and we usually say that the only thing we take seriously is our customers. Still interested? Great! We are constantly on the lookout for new and passionate talents with a strong technical interest. Now we are looking for you who wants to be a part of the Nordics sharpest CRM-team and our Nordic Trainee Program with start in January or August every year!",
-        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+        "signUpURL": "https://www.facebook.com/events/707794449614419/"
       }
     ]
   },
@@ -44,7 +44,7 @@ const initialState = [
         "language": "Swedish",
         "location": "E:B, E-huset",
         "description": "Knightec is a consultancy specialising in technology, quality and project management for product development, systems and production. Among our customers you find many of Sweden's largest industrial companies within automotive, Life science, security, packaging and industry. Knightec creates a better future via development of people and technology, driven by the belief that a diversified team is the key to success. Right now Knightec consists of more than 30 nationalities and a third of our employees are women. Knightec's ambition is to further increase this diversity. We believe in daring to be the best, exceeding expectations and showing consideration for colleagues and customers.",
-        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+        "signUpURL": "https://www.facebook.com/events/288629452014217/"
       }
     ]
     
@@ -61,7 +61,7 @@ const initialState = [
         "language": "Swedish",
         "location": "E:B, E-huset",
         "description": "We are people who protect people.\nEvery day, Verisure does something amazing. By protecting what matters most, we change lives for the better.\nWe protect people beyond expectations, transforming our customers’ lives–and our industry.\nWe do this by building on over 30 years of insights, experience and innovation.\nThe result is peace of mind. It’s a role we are proud to play and will continue to fulfill for generations to come.",
-        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+        "signUpURL": "https://www.facebook.com/events/383158648906200/"
       }
     ]
     
@@ -93,8 +93,8 @@ const initialState = [
         "endTime": "23:00",
         "language": "",
         "location": "Gasquesalen, Kårhuset",
-        "description": "Enjoy a wonderful dinner after the first day of fair, student and company representants together",
-        "signUpURL": "https://www.facebook.com/pg/Teknikfokus/events/?ref=page_internal"
+        "description": "Teknikfokus 2019 would like to cordially invite you to the Teknikfokus Banquet the perfect meeting place for company representatives and students engaged in the Teknikfokus to enjoy an evening of delicious three-course menu, music, entertainment and a festive atmosphere. Before the banquet we welcome you to mingle with refreshments and drinks in the hall of mirrors. After dinner we invite you to bar and mingle.\n\nDresscode: Semi-formal\n\nSchedule:\n18:00 The door open to the hall of mirrors for mingle  \n19:00 The banquet begins\n22:00 After-banquet mingle opens \n00:00 Doors closes",
+        "signUpURL": "https://www.facebook.com/events/1952662108374014/"
       }
     ]
     
