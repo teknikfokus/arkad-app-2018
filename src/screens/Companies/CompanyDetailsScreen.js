@@ -50,7 +50,7 @@ class CompanyDetailsScreen extends Component {
         <TextArraySection title="Desired programme" descriptionArray={[company['Interested in']]} />
 
         
-        <TextSection title="Offies locations" description={company['OfficeLocation']} />
+        <TextSection title="Office locations" description={company['OfficeLocation']} />
 
 
         { company['SustainabilityWork'] !== '' && <TextSection title="Sustainability" description={company['SustainabilityWork']} /> }

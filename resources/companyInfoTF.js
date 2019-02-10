@@ -276,7 +276,7 @@ const companyData = [
     "Offer": "Master thesis, Full Time Employment, Internship",
     "Name of contact person": "Poya Ataei",
     "Email of contact person": "poya.ataei@dirac.com",
-    "Day": "12 February",
+    "Day": "13 February",
     "Logo-fileName": require("./companieImg/DiracResearch.png")
   },
   {
@@ -317,7 +317,7 @@ const companyData = [
     "Interested in": "Computer Science / InfoCom, Biomedical Engineering, Electrical Engineering",
     "Offer": "Summer job, Full Time Employment",
     "Name of contact person": "Christina Jonéus",
-    "Email of contact person": "cjo@hmocue.se",
+    "Email of contact person": "cjo@hemocue.se",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/hemocue.png")
   },
@@ -880,6 +880,20 @@ const companyData = [
     "Email of contact person": "lund@iaeste.se",
     "Day": "13 February",
     "Logo-fileName": require("./companieImg/IAESTE.jpg")
+  },
+  {
+    "key": 64,
+    "Company": "VentureLab",
+    "AboutCompany": "VentureLab is the Startup hub of Lund University consisting of three pillars; inspiration, business development and incubation.\nWe want to inspire students towards an alternative career through different activities and events with a focus on startups and innovation.\nBusiness development means that you meet a business developer to help you with a plan, network, and knowledge.\nIn the incubator you get an office space, becomes part of a community with other entrepreneurs determined and facing similar challenges just like you. This is kickstarted by a three month incubator program to really accelerate your journey.\nAll ideas are welcome and remember that we have confidentiality.\nWelcome!",
+    "OfficeLocation": "Lund",
+    "Number of employees": "We are 8 employees at VentureLab who support the students in different ways. In the incubator you will find about 50 student projects that work with their ideas.",
+    "SustainabilityWork": "We work with it every day in both our events and in the Incubator. Many of our companies in the incubator has sustainability incorporated in their project, either as the main part of the idea like Sustainable Influencers, or like a part of the business model as Suntribe.",
+    "Interested in": "Computer Science / InfoCom, Biomedical Engineering, Electrical Engineering",
+    "Offer": "Support and coaching to make your idea into a reality! ",
+    "Name of contact person": "Amelie Hallin",
+    "Email of contact person": "info@venturelab.lu.se",
+    "Day": "13 February",
+    "Logo-fileName": require("./companieImg/VentureLab.png")
   }
 ]
   
