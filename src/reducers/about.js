@@ -1,79 +1,99 @@
 const initialState = {
   aboutUs:
-    'Teknikfokus is a career fair dedicated towards students in the E and D-guilds at LTH, which includes students who study CS, ICT, EE and BME.\n\nOur goal is to create a networking platform that effectively connects students with companies. We want to inspire students and help them learn so they become KICKASS - thereby create opportunities for both companies and students. \nWith 63 exhibitors this year, we have expanded the fair to two days with 31 exhibitors the first day and 32 the second. This help us create a smaller and more personal fair.\n\nWe are passionate about organizing a fair that focuses on sustainability. To minimize the environmental impacts as much as possible, all foods and packagings are vegetarian and recyclable at our events.',
+    'Teknikfokus is a career fair dedicated towards students in the E and D-guilds at LTH, which includes students who study CS, ICT, EE and BME.\n\nOur goal is to create a networking platform that effectively connects students with companies. We want to inspire students and reduce the distance between employers and students - thereby create opportunities for both companies and students. \n',
   openingHours: [
-    { date: '12 Februrary', time: '10:00-16:00' },
-    { date: '13 Februrary', time: '10:00-16:00' }
+    { date: '18th of Februrary', time: '10:00-16:00' },
+    { date: '19th of Februrary', time: '10:00-16:00' }
   ],
   aboutArkadTeam:
-    'To make Teknikfokus possible, we have a passionate and hard working project group and over 110 volunteers from both the E and D guilds.',
-
+    'To make Teknikfokus possible, we have a passionate and hard working project group and about 100 volunteers from both the E and D guilds.',
   arkadTeam: [
     {
       title: 'Project group',
       data: [
         {
           key: '0',
-          name: 'Johan Vikstrand',
+          name: 'Alexander Wik',
           role: 'Project Manager',
-          image: require('../../resources/img/johan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/johanvikstrand/'
+          image: require('../../resources/img/alexanderwik.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/alexander-wik-83510b161?trk=people-guest_people_search-card'
         },
         {
           key: '1',
-          name: 'Jonathan Frisk',
+          name: 'Niklas Hedström',
           role: 'Project Manager',
-          image: require('../../resources/img/jonathan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/jonathanfrisk/'
+          image: require('../../resources/img/niklashedstrom.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/niklas-hedström?trk=public_profile_similar-profiles_profile-result-card_result-card_full-click'
         },
         {
           key: '2',
-          name: 'Elin Hanstorp',
-          role: 'Head of IT',
-          image: require('../../resources/img/elin.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/elinhanstorp/'
+          name: 'Andreas Olsson',
+          role: 'IT Manager',
+          image: require('../../resources/img/andreasolsson.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/andreas-olsson-bb270b149?trk=people-guest_people_search-card'
         },
         {
           key: '3',
-          name: 'Keiwan Mosaddegh',
-          role: 'Business Manager',
-          image: require('../../resources/img/keiwan.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/keiwan-mosaddegh-38048a88'
+          name: 'Alexander Arvebratt',
+          role: 'IT & Graphical design Manager',
+          image: require('../../resources/img/alexanderarvebratt.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/arvebratt/%7Bcountry%3Dse%2C+language%3Dsv%7D'
         },
         {
           key: '4',
-          name: 'Olivia Wiaczek',
+          name: 'Adam Rosandell',
           role: 'Business Manager',
-          image: require('../../resources/img/olivia.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/olivia-wiaczek-447a0b173'
+          image: require('../../resources/img/adamrosandell.jpg'),
+          linkedInUrl: 'https://www.linkedin.com/in/adamrosandell/'
         },
         {
           key: '5',
-          name: 'Måns Lindeberg',
-          role: 'Head of Logistics',
-          image: require('../../resources/img/mans.jpg'),
-          linkedInUrl: 'https://www.linkedin.com/in/m%C3%A5ns-lindeberg-098534177/'
+          name: 'Malin Heyden',
+          role: 'Business Manager',
+          image: require('../../resources/img/malinheyden.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/malin-heyden-408685139'
         },
         {
           key: '6',
-          name: 'Ceclilia Huang',
-          role: 'Head of Marketing',
-          image: require('../../resources/img/cecilia.jpg'),
-          linkedInUrl: 'http://linkedin.com/in/cecilia-huang-b8067a175'
+          name: 'Lina Tinnerberg',
+          role: 'Business Manager',
+          image: require('../../resources/img/linatinnerberg.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/lina-tinnerberg-24a162175'
         },
         {
           key: '7',
-          name: 'Björn Johnsson',
-          role: 'Event Manager',
-          image: require('../../resources/img/bjorn.jpg'),
-          linkedInUrl: 'http://linkedin.com/in/björn-johnsson-320203172'
+          name: 'Anna Qvil',
+          role: 'Logistics Manager',
+          image: require('../../resources/img/annaqvil.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/anna-qvil-708606137'
         },
         {
           key: '8',
-          name: 'Sanna Nordberg',
-          role: 'Head of Recruitment',
-          image: require('../../resources/img/sanna.jpg'),
-          linkedInUrl: 'http://linkedin.com/in/sanna-nordberg-b989b513a'
+          name: 'Filip Tran',
+          role: 'Finance Manager',
+          image: require('../../resources/img/filiptran.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/filip-tran-258136195'
+        },
+        {
+          key: '9',
+          name: 'Louise Wedberg',
+          role: 'Event Manager',
+          image: require('../../resources/img/louisewedberg.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/louise-wedberg-86a3aa15a'
+        },
+        {
+          key: '10',
+          name: 'Linus Åbrink',
+          role: 'Host Manager',
+          image: require('../../resources/img/linusabrink.jpg'),
+          linkedInUrl: ''
+        },
+        {
+          key: '11',
+          name: 'Emma Hjörneby',
+          role: 'Communications Manager',
+          image: require('../../resources/img/emmahjorneby.jpg'),
+          linkedInUrl: 'https://se.linkedin.com/in/emmahjörneby'
         }
       ]
     }
