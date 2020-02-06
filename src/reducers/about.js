@@ -1,6 +1,6 @@
 const initialState = {
   aboutUs:
-    'Teknikfokus is a career fair dedicated towards students in the E and D-guilds at LTH, which includes students who study CS, ICT, EE and BME.\n\nOur goal is to create a networking platform that effectively connects students with companies. We want to inspire students and reduce the distance between employers and students - thereby create opportunities for both companies and students. \n',
+    'Teknikfokus is a career fair dedicated towards students in the E and D-guilds at LTH, which includes students who study CS, ICT, EE and BME.\n\nOur goal is to create a networking platform that effectively connects students with companies. This year, 64 companies will attend Teknikfokus.',
   openingHours: [
     { date: '18th of Februrary', time: '10:00-16:00' },
     { date: '19th of Februrary', time: '10:00-16:00' }

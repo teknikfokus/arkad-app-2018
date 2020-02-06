@@ -77,8 +77,8 @@ const initialState = [
         "endTime": "23:00",
         "language": "",
         "location": "iDét, E-huset",
-        "description": "TBA",
-        "signUpURL": "Vad är artificiell intelligens? Enligt Wikipedia är AI “förmågan hos datorprogram och robotar att efterlikna människors och andra djurs naturliga intelligens, främst kognitiva funktioner såsom förmåga att lära sig saker av tidigare erfarenheter, förstå naturligt språk, lösa problem, planera en sekvens av handlingar och att generalisera.” Fina ord, jovars. Men vad betyder detta rent konkret? Och än bättre: varför är AI relevant för dig som student på LTH? Välkommen till en avslappnad studentpub i iDét under vilken du utöver svar på ovanstående frågor kommer få veta mer om AI:s historia och få flera exempel på hur AI används ute i den riktiga världen utanför universitetet. Eventet anordnas av Teknikfokus 2020 i samarbete med den ideella studentföreningen Lund AI Initiative."
+        "description": "Vad är artificiell intelligens? Enligt Wikipedia är AI “förmågan hos datorprogram och robotar att efterlikna människors och andra djurs naturliga intelligens, främst kognitiva funktioner såsom förmåga att lära sig saker av tidigare erfarenheter, förstå naturligt språk, lösa problem, planera en sekvens av handlingar och att generalisera.” Fina ord, jovars. Men vad betyder detta rent konkret? Och än bättre: varför är AI relevant för dig som student på LTH? Välkommen till en avslappnad studentpub i iDét under vilken du utöver svar på ovanstående frågor kommer få veta mer om AI:s historia och få flera exempel på hur AI används ute i den riktiga världen utanför universitetet. Eventet anordnas av Teknikfokus 2020 i samarbete med den ideella studentföreningen Lund AI Initiative.",
+        "signUpURL": "https://www.facebook.com/events/264738184489067/"
       }
     ]
   },
@@ -111,7 +111,7 @@ const initialState = [
         "language": "",
         "location": "E:B, E-huset",
         "description": "Välkommen till en lunchföreläsning med Skatteverket! ·Skatteverkets IT-verksamhet i Malmö kommer att rekrytera 70 personer ·Hur använder vi IT för att hitta gömda pengar globalt? ·Hur utvecklar vi applikationer som är 'cloud-native'?",
-        "signUpURL": ""
+        "signUpURL": "https://www.facebook.com/events/166271688138934/"
       }
     ]
 
@@ -124,11 +124,11 @@ const initialState = [
         "name": "D-chip pub",
         "speaker": "",
         "startTime": "17:00",
-        "endTime": "TBA",
+        "endTime": "22:00",
         "language": "",
-        "location": "E-huset",
-        "description": "",
-        "signUpURL": ""
+        "location": "iDét, E-huset",
+        "description": "Tillsammans med D-Chip och Elektra bjuder Teknikfokus in till företagspub med Cygni och Storytel torsdagen den 13/2. D-Chip och Elektra arbetar aktivt med att främja kvinnors trivsel på D- respektive E-sektionen och verkar för ett större kvinnligt engagemang. Genom att erbjuda en bredd av aktiviteter och event ger dem sina medlemmar en inblick i arbetslivet och möjliggör för dem att göra aktiva karriärval! Under kvällen kommer ni få höra med om vad Cygni och Storytel arbetar med och hur dem arbetar med jämställdhetsfrågor, och samtidigt få en möjlighet att få en inblick i det arbete som D-chip och Elektra utför!",
+        "signUpURL": "https://www.facebook.com/events/171869480800665/"
       }
     ]
 
@@ -138,7 +138,7 @@ const initialState = [
     "data":[
       {
         "key": 13,
-        "name": "First day of the fair!",
+        "name": "First day of the fair",
         "speaker": "",
         "startTime": "10:00",
         "endTime": "16:00",
