@@ -1,7 +1,7 @@
 const companyData = [
   {
     "key": 1,
-    "Company": "Sectra AB",
+    "Company": "Sectra AB (52)",
     "AboutCompany": "Sectra’s work enables hospitals across the world to become more effective and thus take care of more patients and save more lives. Through our solutions, Sectra also provides greater security for society’s most critical communication and IT systems, which contributes to a more stable and secure society. ",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -14,7 +14,7 @@ const companyData = [
   },
   {
     "key": 2,
-    "Company": "ALTEN (Alten Sverige AB)",
+    "Company": "ALTEN (Alten Sverige AB) (38)",
     "AboutCompany": "Every employee is equally valuable in the success of ALTEN! We are driven by making people grow and develop, which is why we offer you the opportunity to work with what you are truly passionate about. At ALTEN, we have a broad range of assignments at most of the leading companies in Sweden in several different sectors, to make it possible for your wishes to come true. We offer both national and international opportunities and together with your coaching manager, you build your career path so you constantly are able to develop and achieve your goals and dreams! As a consultant at ALTEN, you will get the genuine team feeling at your assignment but also a wonderful togetherness at ALTEN. Through our different internal networks, such as ALTEN Sports, Women@ALTEN and ALTEN Innovation you will get the opportunity to drive topics and activities that are close to your heart, together with your colleagues. All activities are of course optional. Work life balance is our top priority. We also have a collective agreement and other benefits like Pension, Insurances and Wellness grants. We believe in growing together.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -27,7 +27,7 @@ const companyData = [
   },
   {
     "key": 3,
-    "Company": "Cygni Syd AB",
+    "Company": "Cygni Syd AB (20)",
     "AboutCompany": "Vi är Sveriges Bästa Arbetsgivare, självklart har vi också de bästa IT-konsulterna! Cygnis konsulter är fullstacksutvecklare, frontendare, mobilutvecklare, UX-designers, Digitala Designers, projektledare osv. Alla kompetenser som krävs för att kunna hjälpa våra kunder med att bygga de bästa digitala lösningarna. Ett konsultbolag kan antingen nischa sig inom en viss bransch eller inom ett visst teknikområde. Vi har valt det senare; oavsett bransch kan vi delta i utvecklingen av våra kunders digitala system. Många av våra kunder upplever också en fördel i att konsulterna har erfarenhet från andra branscher än den kunden själv verkar i. På vår kundlista återfinns företag och organisationer inom ett flertal branscher såsom media, finans, telekom, spel och retail. De flesta är ledande i sin bransch men vi jobbar även med mindre företag och organisationer. Idag finns vi i Stockholm, Göteborg, Malmö, Linköping, Luleå och Östersund. Många av våra uppdrag utför vi på plats hos våra kunder men vi har också projekt på våra kontor och som helhetsåtaganden ute hos våra kunder. Våra kontor fungerar som naturliga samlingsplatser för konsultmöten, afterworks och andra aktiviteter.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -40,7 +40,7 @@ const companyData = [
   },
   {
     "key": 4,
-    "Company": "Axis Communications",
+    "Company": "Axis Communications (36)",
     "AboutCompany": "Constantly breaking new ground! Axis is the market leader in network video with R&D offices in Lund and Linköping. We have many master thesis opportunities, and all of them are an important part of Axis' product development and research. We also offer summer jobs and part time opportunities. For this summer we are looking for 150 summer workers! We don’t make up projects for you to solve, we give you real ones which have a great impact on our solutions and products. Several of Axis' successful products was initiated by students. Together we innovate for a smarter and safer world.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -53,7 +53,7 @@ const companyData = [
   },
   {
     "key": 5,
-    "Company": "Acconeer",
+    "Company": "Acconeer (15)",
     "AboutCompany": "Based on research from Lund University, Acconeer has created a unique radar solution that creates new opportunities for human interaction with technology. The radar sensor is based on pulsed coherent radar technology and combines extremely low power consumption with high accuracy. The unique characteristics of this radar sensor make it possible to identify materials and detect motion in advanced sensor applications. The small size, only 5x5 mm, and low power consumption are ideal for compact battery-driven and mobile devices.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -66,7 +66,7 @@ const companyData = [
   },
   {
     "key": 6,
-    "Company": "Accenture AB",
+    "Company": "Accenture AB (34)",
     "AboutCompany": "Accenture is a leading global professional services company, providing a broad range of services and solutions in strategy, consulting, digital, technology and operations. Combining unmatched experience and specialized skills across more than 40 industries and all business functions – underpinned by the world’s largest delivery network – Accenture works at the intersection of business and technology to help clients improve their performance and create sustainable value for their stakeholders. With more than 492 000 people serving clients in more than 120 countries, Accenture drives innovation to improve the way the world works and lives. Visit us at www.accenture.com.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -79,7 +79,7 @@ const companyData = [
   },
   {
     "key": 7,
-    "Company": "Verisure Innovation AB",
+    "Company": "Verisure Innovation AB (8)",
     "AboutCompany": "Verisure Innovation is one of Sweden’s top R&D Centers in the connected smart home market. This is where we create and develop services and products for home security and home automation. We are specialists in home safety and customer integrity issues and have amassed a wealth of experience and expertise over more than 30 years. We do most things in-house to guarantee premium quality every step of the way. ",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -92,7 +92,7 @@ const companyData = [
   },
   {
     "key": 8,
-    "Company": "Sentian AI",
+    "Company": "Sentian AI (24)",
     "AboutCompany": "Sentian is a fast growing start-up that works with Data Science and AI and their applications in intelligent solutions for Industry 4.0. We love building solutions to solve previously unsolvable problems. In these problems, fields of mathematics, statistics, programming, computer science, and others are combined, which offers a rich and exciting environment to work in. We are based in Malmö, and we are looking to hire a number of people to fill-in the great demand for services in these areas.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -105,7 +105,7 @@ const companyData = [
   },
   {
     "key": 9,
-    "Company": "Lunicore Student Consulting AB",
+    "Company": "Lunicore Student Consulting AB (47)",
     "AboutCompany": "Lunicore is Lund University's student consulting company. We offer the latest expertise in areas such as sustainability, analytics, IT and communication. With a new perspective, we create value for Skåne's business community. We offer quality part-time jobs for students, 10 hours a week and a steppingstone into working life",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -118,7 +118,7 @@ const companyData = [
   },
   {
     "key": 10,
-    "Company": "Qoitech AB",
+    "Company": "Qoitech AB (62)",
     "AboutCompany": "At Qoitech, we are passionate about product longevity. We endeavor to make the most effective developer tools for the ​energy optimization of battery-driven products. By enabling ease of use, our products help developers, throughout the stack, to develop for longer battery life, shorter development cycles, and lower maintenance cost.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -131,7 +131,7 @@ const companyData = [
   },
   {
     "key": 11,
-    "Company": "Krafttag AB",
+    "Company": "Krafttag AB (12)",
     "AboutCompany": "Krafttag AB is an engineering company which have specialized in power stations for heavy industries, substations and power grids. Today we also work with local distribution nets with inspections, cable terminations, testing and commissioning of switchgears for our clients. We pride ourselves in hiring people with diverse education and experience levels. By combining young mindsets with the newest knowledge from the academia with older foxes with tons of wisdom and work experience, we believe great results can be achieved.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -144,7 +144,7 @@ const companyData = [
   },
   {
     "key": 12,
-    "Company": "Smart Refill",
+    "Company": "Smart Refill (31)",
     "AboutCompany": "Smart Refill provides platforms and engaging apps for the fintech and telecom sectors. The mobile banks, fund apps and prepaid apps we develop simplify the everyday life of the users and boost the businesses of our customers - Handelsbanken, Resurs Bank, Telia Company and Telenor are some examples. Our PCI DSS compliant environment handles hundreds of millions of SEK in payments every year and we are an E-money Institution/Payment Institution under supervision of Finansinspektionen. We are really proud of our product, culture and the inclusive atmosphere at our office in central Helsingborg.  Did you know: Smart Refill develops Handelsbanken’s award-winning banking app for children. We are a global provider to Telia Company with apps in Sweden, Norway, Denmark, Finland and Lithuania. With the EU’s PSD2 and Open Banking, more smart fintech solutions are on the way. Exciting times are ahead of us!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -157,7 +157,7 @@ const companyData = [
   },
   {
     "key": 13,
-    "Company": "Auranest",
+    "Company": "Auranest (42)",
     "AboutCompany": "Auranest empowers individuals in the future of work. We are changing the focus of the labor market from the needs of the companies to the needs of the individual. By using the latest technology within jobtech, we can digitize processes and visualize data that make the individual's path to their dream career as smooth as possible.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -170,7 +170,7 @@ const companyData = [
   },
   {
     "key": 14,
-    "Company": "Lunds Tekniska Högskola",
+    "Company": "Lunds Tekniska Högskola (1)",
     "AboutCompany": "Lunds tekniska högskola är en del av Lunds universitet som grundades 1666 och rankas återkommande som ett av världens 100 främsta lärosäten. Här finns 42 000 studenter och 7 400 medarbetare i Lund, Helsingborg och Malmö. Lund är landets mest populära studieort. Universitetet har ett av Skandinaviens bredaste utbildningsutbud baserat på gränsöverskridande och ledande forskning. Den täta universitetsmiljön stimulerar nätverkande som i sin tur bäddar för vetenskapliga genombrott och innovationer. Universitetet har en tydlig internationell profil och har partneruniversitet i mer än 70 länder. Lunds universitet omsätter åtta miljarder, varav två tredjedelar går till forskning.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -183,7 +183,7 @@ const companyData = [
   },
   {
     "key": 15,
-    "Company": "Minut",
+    "Company": "Minut (25)",
     "AboutCompany": "An all-in-one smart home alarm that’s easy-to-install, packed full of sensors and can instantly alert you to different threats in your home.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -196,7 +196,7 @@ const companyData = [
   },
   {
     "key": 16,
-    "Company": "InfraSight Labs AB",
+    "Company": "InfraSight Labs AB (46)",
     "AboutCompany": "InfraSight Labs is the company behind vScope - a solution for IT inventory and and insights. The company was founded in Malmö 2010, and went from a small startup to an established player in the global IT industry in a few years. With vScope, we help people within IT to be better through automation, transparency and efficient collaboration. vScope collects data from multiple IT sources and makes that information easily accessible and easier to understand. This leads to a more efficient team, increased productivity, and greater control over the IT environment. Our product vScope is based on proprietary graph database technology, which enables many exciting development projects and we are continuously on the lookout for new members to join our fantastic team. Read more: vscope.net",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -209,7 +209,7 @@ const companyData = [
   },
   {
     "key": 17,
-    "Company": "u-blox",
+    "Company": "u-blox (29)",
     "AboutCompany": "u-blox is a leading fabless semiconductor provider of embedded positioning and wireless communication solutions. Our multi-national employees working in 21 countries develop, deliver, and support high quality products. With their ideas, expertise, and passion for their work, they contribute to the successful achievement of u-blox’s strategic goals. ",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -222,7 +222,7 @@ const companyData = [
   },
   {
     "key": 18,
-    "Company": "Academic Work",
+    "Company": "Academic Work (4)",
     "AboutCompany": "Academic Work is the home of the young professionals. We offer jobs to students and academics in the beginning of their careers (0-5 years experience). That is our niche, our area of expertise and the target group we believe in. Academic Work operates in six countries and mediates over 16 000 jobs on a yearly basis. We offer qualified jobs within multiple business areas and the opportunity to form business relationships relevant for the future.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -235,7 +235,7 @@ const companyData = [
   },
   {
     "key": 19,
-    "Company": "Storytel",
+    "Company": "Storytel (9)",
     "AboutCompany": "Storytel is Northern Europe's largest audiobook and ebook subscription service, and we aspire to be a global market leader in storytelling. We believe in stories, and we aim to be the obvious choice for all audiobook lovers. Storytel offers a friendly, entrepreneurial and fast-moving work environment where new ideas and creativity is welcomed. We like doing things in new ways and questioning old methods. The Storytel culture - characterized by being welcoming and helpful - is important to us. We don’t believe in hierarchy and micromanagement, we highly believe in giving responsibility and having people grow alongside it. And we always find time for “fika” (the Swedish concept of sitting down and having a cup of coffee together).",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -249,7 +249,7 @@ const companyData = [
   ,
   {
     "key": 20,
-    "Company": "ASSA ABLOY",
+    "Company": "ASSA ABLOY (39)",
     "AboutCompany": "The ASSA ABLOY Group provides opening solutions, trusted identities, entrance automation and service for institutional and commercial customers, as well as for the residential market.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -262,7 +262,7 @@ const companyData = [
   },
   {
     "key": 21,
-    "Company": "CellaVision AB",
+    "Company": "CellaVision AB (37)",
     "AboutCompany": "CellaVision is the world-leading provider of digital solutions for medical microscopy in the field of hematology. We help hematology laboratories around the world improve and transform the process of analyzing blood and other body fluids. By introducing innovative automation, digital imaging, and artificial neural network technology, CellaVision makes the analysis process faster, better and more flexible to create a streamlined workflow for the laboratory and improving quality of care for healthcare patients. All product development and manufacturing is overseen from our global HQ in Lund.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -275,7 +275,7 @@ const companyData = [
   },
   {
     "key": 22,
-    "Company": "Arm",
+    "Company": "Arm (60)",
     "AboutCompany": "Arm technology is at the heart of a computing and connectivity revolution that is transforming the way people live and businesses operate. Our advanced, energy-efficient processor designs have enabled intelligent computing in more than 150 billion chips and our technologies now securely power products from the sensor to the smartphone and the supercomputer. In combination with our IoT device, connectivity and data management platform, we are also enabling customers with powerful and actionable business insights that are generating new value from their connected devices and data. Together with 1,000+ technology partners we are at the forefront of designing, securing and managing all areas of compute from the chip to the cloud.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -288,7 +288,7 @@ const companyData = [
   },
   {
     "key": 23,
-    "Company": "MCA Sweden",
+    "Company": "MCA Sweden (63)",
     "AboutCompany": "We are a technology consulting company with ca 100 employees, and we are continuously growing with new talents. Our HQ is located in Göteborg, and we have an office in Stockholm as well! We are looking for talents who are as passionate about innovation and new technology as we are. When you decide to become a MCA colleague we offer you the opportunity to grow as an engineer in a flexible and diverse environment. We offer long term assignments within innovative areas like autonomous drive, electric and hybrid cars, connectivity, IT and telecom.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -301,7 +301,7 @@ const companyData = [
   },
   {
     "key": 24,
-    "Company": "Skatteverket",
+    "Company": "Skatteverket (59)",
     "AboutCompany": "At the Swedish Tax Agency, several departments work with IT. Our IT department has more than 1000 coworkers. We are developers, analysts, test engineers, specialists, product owners and scrum masters . We make our society work! Our assignments cover development, operation, management and maintenance of IT systems. We offer open positions and degree projects. Feel welcome to apply to our open positions at https://skatteverket.se/ledigajobb. We look forward to meet you at Teknikfokus!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -314,7 +314,7 @@ const companyData = [
   },
   {
     "key": 25,
-    "Company": "Tetra Pak",
+    "Company": "Tetra Pak (22)",
     "AboutCompany": "At Tetra Pak we touch millions of people’s lives every day, ensuring better nutrition and healthier lifestyles through safe packaging and food processing solutions. Guided by our global brand promise, PROTECTS WHAT’S GOOD, we strive to make a difference by protecting food, people and our futures. To do this we need more than smart technology. We need smart people too. People like you, who want to work with people like us. Determined to come up with some of the brightest ideas on the planet. It may seem a little excessive for a humble carton company. But when we tell you we’re the largest food processing and packaging company in the world, with more than 5000 patents, then maybe not.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -327,7 +327,7 @@ const companyData = [
   },
   {
     "key": 26,
-    "Company": "Advenica",
+    "Company": "Advenica (7)",
     "AboutCompany": "Advenica is a leading European provider of cybersecurity. Advenica offers advanced cybersecurity solutions and services for business-driven information exchange, secure digitalisation and high assurance. For more than 20 years Advenica has enabled organisations and companies to take digital responsibility by providing future-proof, sustainable solutions.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -340,7 +340,7 @@ const companyData = [
   },
   {
     "key": 27,
-    "Company": "ONE Nordic AB",
+    "Company": "ONE Nordic AB (40)",
     "AboutCompany": "ONE Nordic is the leading supplier of technical services, maintenance services and contracting services in the energy and manufacturing industry in Sweden .With our nationwide organization and local knowledge, we take responsibility for and deliver high-quality services and solutions to energy producers, distributors and energy users.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -353,7 +353,7 @@ const companyData = [
   },
   {
     "key": 28,
-    "Company": "Siemens AB",
+    "Company": "Siemens AB (21)",
     "AboutCompany": "Creating environments that care. Making real what matters: Humans care. We want an urban, sustainable, livable world that optimally combines real and digital solutions. We address infrastructure challenges, contributing to sustainable development and creating the best possible environments in which to live and work. At Siemens Smart Infrastructure, we intelligently connect energy systems, buildings and industries to adapt and evolve the way we live and work. We create an ecosystem that intuitively responds to the needs of people and helps us to better use resources. It helps our customers to thrive and communities to progress. ",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -366,7 +366,7 @@ const companyData = [
   },
   {
     "key": 29,
-    "Company": "Lime Technologies Sweden AB",
+    "Company": "Lime Technologies Sweden AB (23)",
     "AboutCompany": "At Lime, we love CRM! Since the beginning we have helped more than 6000 companies to reach better results with the help of easy-to-use CRM solutions that we develop, consult and support ourselves. Today we are over 270 colleagues and one of the largest CRM suppliers in the Nordic countries with offices in Gothenburg, Stockholm, Lund, Helsinki, Oslo and Copenhagen. Are you into coding and want to be a developer? Or be a tech account manager helping companies understand how Lime can grow their business? Maybe you are our next project manager or application consultant that deliver our solutions? With our Nordic Trainee Program, we promise a unique opportunity to kick-start your career. With a solid training program as a base together with challenging projects and a senior mentor, we guarantee that you will have a steep progress line. Quite simply, a brilliant start to your career! Welcome to apply to our trainee program with start in January or August every year. We like to have ridiculously fun at work and are convinced that it is one of Lime’s success factors. We usually say that the only thing we take seriously is our customers... What kind of workplace would you like to have?",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -379,7 +379,7 @@ const companyData = [
   },
   {
     "key": 30,
-    "Company": "Qlik",
+    "Company": "Qlik (5)",
     "AboutCompany": "We’re motivated to help people make discoveries in data, share insights, make decisions and act with confidence. Making a difference, both in small and large ways, is our passion. At the heart of Qlik is our Swedish soul, which guides everything from our culture and product design approach to our corporate social responsibility program. It’s what drives us to create a culture of innovation. We believe data can change the world. And we believe people can, too",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -392,7 +392,7 @@ const companyData = [
   },
   {
     "key": 31,
-    "Company": "Tactel AB",
+    "Company": "Tactel AB (35)",
     "AboutCompany": "Tactel är en digital interaktionsbyrå. Vi levererar insikterna, designen och tekniken som underlättar dina kunders vardag. Tjänster som förtjänar sin plats i deras digitala liv. Det är så vi skapar kvalitetstiden som utvecklar er relation, långsiktigt och lönsamt.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -405,7 +405,7 @@ const companyData = [
   },
   {
     "key": 32,
-    "Company": "HMS Industrial Networks",
+    "Company": "HMS Industrial Networks (61)",
     "AboutCompany": "In a world where all devices are intelligent and networked, HMS is the leader in making industrial devices and systems communicate - for a more productive and sustainable world.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -418,7 +418,7 @@ const companyData = [
   },
   {
     "key": 33,
-    "Company": "Sigma IT",
+    "Company": "Sigma IT (49)",
     "AboutCompany": "Sigma IT is a strong and fast growing IT consulting company, helping our customers with innovative solutions every day. We have built a dynamic and passionate corporate culture, driven by our vision Expect a Better Tomorrow and our core-values Passion and Execution.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -431,7 +431,7 @@ const companyData = [
   },
   {
     "key": 34,
-    "Company": "Neodev AB",
+    "Company": "Neodev AB (11)",
     "AboutCompany": "Neodev AB is a Swedish consulting firm operating in the Öresund region. Our main expertise is software engineering with business areas: artificial intelligence, web, embedded, mobile applications and test automation. We offer solutions from prototyping to implementation, as well as initial guidance and advise on how you can best use machine learning to make your product more efficient and competitive for the future. For more information, visit www.neodev.se ",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -444,7 +444,7 @@ const companyData = [
   },
   {
     "key": 35,
-    "Company": "Netcompany",
+    "Company": "Netcompany (10)",
     "AboutCompany": "Netcompany accelerates digital transformation in public and private enterprises in Denmark and Northern Europe. We deliver business-critical IT solutions to support sustainable societies, successful and competitive businesses, and better lives for all of us.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -457,7 +457,7 @@ const companyData = [
   },
   {
     "key": 36,
-    "Company": "Jayway by Devoteam",
+    "Company": "Jayway by Devoteam (51)",
     "AboutCompany": "Today we are a leading creative tech company based in Scandinavia, providing innovative tech solutions to an international client base. We deliver world class design and software development services to local and global enterprises; creating ground-breaking new value propositions and improving business efficiency. We combine creativity and technology to swiftly transform ideas into remarkable experiences — we do #techforpeople. Founded in 2000, our company is now a place of 250 skilled creative developers and tech edgy designers; we call ourselves creative technologists. We have offices in Malmö, Copenhagen, Halmstad, Stockholm and in Silicon Valley.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -470,7 +470,7 @@ const companyData = [
   },
   {
     "key": 37,
-    "Company": "Netlight Consulting",
+    "Company": "Netlight Consulting (27)",
     "AboutCompany": "We know that if you want to be on the forefront of digitalisation and IT you have to rely on people. That is why we have an organisation built on trust and responsibility, with a comprehensive personal development program. We offer a unique community and career development in an international environment. Our flat network organization is characterized by high engagement and personal responsibility along with companywide cooperation, where every employee is matched with a personal mentor and career coach. As a top-ranked IT and Management consultancy company, we work with some of the most significant companies within the forefront of digitalization, employing more than 1300 people in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt and Zurich. Several times we have received awards as a top employer, as well as for our growth, continued profitability and our engagement for equality within the IT industry.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -483,7 +483,7 @@ const companyData = [
   },
   {
     "key": 38,
-    "Company": "Visma",
+    "Company": "Visma (43)",
     "AboutCompany": "Visma är en av Europas mest expansiva IT-koncerner med plats för dig att växa, både professionellt och som individ. På Visma jobbar du i en snabbrörlig och vänlig miljö med stor möjlighet att påverka. Vi tror att engagemang skapas genom utmaningar, trygghet och flexibilitet. Visma fokuserar på affärskritisk mjukvara och erbjuder system och molnbaserade tjänster till privata företag och offentlig sektor. Hos oss hittar du karriärmöjligheter inom bl.a. mjukvaruutveckling, IT-projektledning, UX-design, Business Intelligence och affärsutveckling.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -496,7 +496,7 @@ const companyData = [
   },
   {
     "key": 39,
-    "Company": "Grade",
+    "Company": "Grade (19)",
     "AboutCompany": "Engagerade medarbetare med rätt kompetens är den viktigaste resursen ett företag eller organisation har. Vårt mål är att hjälpa våra kunder att engagera, utveckla och behålla rätt medarbetare. Vi erbjuder ett användarvänligt och intuitivt Talent Management System (TMS) och Learning Management System (LMS) tillsammans med skräddarsydda e-Learnings – för företag och organisationer i alla storlekar. Med vår plattform kan våra kunder på ett enkelt sätt mäta och höja medarbetares engagemang och kompetens.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -509,7 +509,7 @@ const companyData = [
   },
   {
     "key": 40,
-    "Company": "Perigee AB",
+    "Company": "Perigee AB (14)",
     "AboutCompany": "We're a Malmö-based company, looking to make the world a better place, one app at a time. With over 35 million downloads, our apps Cycles & Seven are globally recognized as the top period tracking and fitness apps on the market. Innovation, passion and curiosity are how our team moves the needle and creates exciting new features our users love and we're always on the hunt for new talent to help us make our dreams reality!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -522,7 +522,7 @@ const companyData = [
   },
   {
     "key": 41,
-    "Company": "Combitech AB",
+    "Company": "Combitech AB (41)",
     "AboutCompany": "Combitech AB contributes to a safer and more sustainable society, by delivering technology consultancy services to a wide variety of industries and customers. Our motto - 'Technology with a purpose' - guides us while working with everything from digitalisation to cyber security.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -535,7 +535,7 @@ const companyData = [
   },
   {
     "key": 42,
-    "Company": "Dover Fueling Solutions",
+    "Company": "Dover Fueling Solutions (57)",
     "AboutCompany": "Dover Fueling Solutions delivers advanced fuel dispensing equipment, electronic systems and payment, automatic tank gauging and wetstock management solutions to customers worldwide. Headquartered in Austin, Texas, DFS has a significant manufacturing presence around the world, including facilities in the USA, the UK, the Netherlands, France, India, China, and Brazil.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -548,7 +548,7 @@ const companyData = [
   },
   {
     "key": 43,
-    "Company": "Schneider Electric",
+    "Company": "Schneider Electric (32)",
     "AboutCompany": "We provide energy and automation digital solutions for efficiency and sustainability. We combine world-leading energy technologies, real-time automation, software and services into integrated solutions for homes, buildings, data centers, infrastructure and industries. We make process and energy safe and reliable, efficient and sustainable, open and connected.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -561,7 +561,7 @@ const companyData = [
   },
   {
     "key": 44,
-    "Company": "Capgemini Sverige",
+    "Company": "Capgemini Sverige (30)",
     "AboutCompany": "With more than 200,000 people in over 40 countries, Capgemini is a global leader in management consulting, IT consulting, technology and outsourcing services. Together with its clients, Capgemini creates and delivers business, technology and digital solutions that fit their needs, enabling them to achieve innovation and competitiveness. A deeply multicultural organization, Capgemini has developed its own way of working, the Collaborative Business ExperienceTM, and draws on Rightshore®, its worldwide delivery model",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -574,7 +574,7 @@ const companyData = [
   },
   {
     "key": 45,
-    "Company": "Ingka group - IKEA",
+    "Company": "Ingka group - IKEA (48)",
     "AboutCompany": "INGKA Group Digital develop the IKEA of tomorrow, bringing digital to the core of everything we do.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -587,7 +587,7 @@ const companyData = [
   },
   {
     "key": 46,
-    "Company": "AFRY",
+    "Company": "AFRY (28)",
     "AboutCompany": "AFRY is an international engineering, design and advisory company. We support our clients to progress in sustainability and digitalisation. We are 17,000 devoted experts within the fields of infrastructure, industry and energy, operating across the world to create sustainable solutions for future generations. Making Future",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -600,7 +600,7 @@ const companyData = [
   },
   {
     "key": 47,
-    "Company": "Telavox AB",
+    "Company": "Telavox AB (13)",
     "AboutCompany": "Telavox develops world-leading communications platforms with solutions for smart and efficient telephony, PBX, chat and much more. Regardless of whether it involves an entrepreneur-driven startup or a giant among giants, Telavox contributes to making companies more transparent, efficient and accessible.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -613,7 +613,7 @@ const companyData = [
   },
   {
     "key": 48,
-    "Company": "E.ON Sverige AB",
+    "Company": "E.ON Sverige AB (17)",
     "AboutCompany": "Nya behov ställer krav på energimarknaden Energimarknaden förändras och det är ett helt nytt energilandskap som växer fram och efterfrågan av förnybara energikällor ökar. Vi är med och driver förändringen och vi vill att det genomsyrar allt vi gör, från samarbeten till hållbara energilösningar som sätter våra kunder i fokus. Drivkrafterna bakom förändringen är kraven på nya teknologier, så som solceller, digitalisering och lokalt producerad förnybar energi. Men framförallt sker omställningen på grund av nya kundbehov.  Nu gör vi vår största satsning någonsin och ställer om till 100 % förnybar och återvunnen energi. Istället för att leva på naturen, måste vi börja leva med den. Nu gör vi stora investeringar för att vara med och skapa ett land som drivs av naturens kraft istället för på dess bekostnad. Du är en viktig del i den. Vill du vara med?",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -626,7 +626,7 @@ const companyData = [
   },
   {
     "key": 49,
-    "Company": "Cybercom",
+    "Company": "Cybercom (53)",
     "AboutCompany": "Cybercom is an innovative IT consultancy firm. We are working every day to connect people, machines and services to make them work more smoothly together. Our consultants and the solutions they create take us all the way from e-services in the Nordic public sector to streamed media and driverless cars in Europe, national eIDs, secure card payments and health apps to healthcare, connected cranes and lifts and smart industrial robots. The company was founded in 1995. The group has approximately 1,300 employees in five countries.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -639,7 +639,7 @@ const companyData = [
   },
   {
     "key": 50,
-    "Company": "Knowit",
+    "Company": "Knowit (2)",
     "AboutCompany": "We creates unique customer values by offering digital and cross-functional solutions from three business areas: Experience, Insight and Solutions. What sets us apart is our ability to combine expertise in design and communication, management consulting and IT. Knowit has around 2,000 employees and operates in 14 locations in Sweden, six in Norway and one each in Denmark, Finland and Germany. Knowit AB (publ) is listed on the Nordic Exchange in Stockholm.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -652,7 +652,7 @@ const companyData = [
   },
   {
     "key": 51,
-    "Company": "Softhouse Consulting",
+    "Company": "Softhouse Consulting (6)",
     "AboutCompany": "We develop software! We are experts in software development. It is a part of our DNA just like the agile way of working. We have experts in different technologies, programming languages and digital strategies.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -665,7 +665,7 @@ const companyData = [
   },
   {
     "key": 52,
-    "Company": "Sveriges Ingenjörer",
+    "Company": "Sveriges Ingenjörer (18)",
     "AboutCompany": "Sveriges Ingenjörer välkomnar dig till vårt unika nätverk med 153 000 ingenjörsmedlemmar. Som medlem erbjuder vi dig stöd och verktyg med allt från cv- och LinkedIn-granskning, karriärcoachning och intervjuträning. Ta även del av landets bästa lönestatistik, digitaltidningen Ny Teknik, samt aktiviteter som hålls vid just ditt lärosäte. Dessutom har du möjlighet att teckna förmånliga försäkringar och du har tillgång till experthjälp om något skulle gå snett på sommar- eller extrajobbet. Välkommen att börja ditt liv som ingenjör med oss!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -678,7 +678,7 @@ const companyData = [
   },
   {
     "key": 53,
-    "Company": "Ingenjörer Utan Gränser",
+    "Company": "Ingenjörer Utan Gränser (50)",
     "AboutCompany": "Through humanitarian engineering, we engage, inspire and unite people to build a sustainable future. Engineers Without Borders Sweden works to address challenges linked to the Sustainable Development Goals, both in Sweden and around the globe. Through improvements in education, equality, energy poverty and access to water and sanitation we strive to make a sustainable and long-term impact with our work, for local communities and the Earth as a whole.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -691,7 +691,7 @@ const companyData = [
   },
   {
     "key": 54,
-    "Company": "IAESTE Lund",
+    "Company": "IAESTE Lund (56)",
     "AboutCompany": "Paid, course related work experience in over 90 countries for science and engineering students",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -704,7 +704,7 @@ const companyData = [
   },
   {
     "key": 55,
-    "Company": "Volvo Cars Corporation",
+    "Company": "Volvo Cars Corporation (55)",
     "AboutCompany": "Volvo Cars is a company on a mission; to bring traditional car manufacturing into a connected, sustainable and smart future. We are a brand known for our commitment to safety, creating innovative cars that make life less complicated for people. We are looking for innovative, committed people to create safe, sustainable and connected cars. Join us and be part of Volvo Cars’ journey into the future!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -717,7 +717,7 @@ const companyData = [
   },
   {
     "key": 56,
-    "Company": "Ericsson AB",
+    "Company": "Ericsson AB (45)",
     "AboutCompany": "Ericsson is one of the leading providers of Information and Communication Technology (ICT) to service providers, with about 40% of the world’s mobile traffic carried through our networks. We enable the full value of connectivity by creating game-changing technology and services that are easy to use, adopt and scale, making our customers successful in a fully connected world. For more than 140 years, our ideas, technology and people have changed the world: real turning points that have transformed lives, industries and society as a whole.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -730,7 +730,7 @@ const companyData = [
   },
   {
     "key": 57,
-    "Company": "SVT",
+    "Company": "SVT (54)",
     "AboutCompany": "Our vision is to contribute to a more inquisitive, informed Sweden. Our aim is to create content that engages, entertains and enriches - in the service of the public. Our operation is based on a democratic idea and is independent of political and commercial interests. In total the digital section of SVT has about 170 employees, with a great mix of people. We love that we are from different cultural backgrounds and that we have different personalities and interests. We can offer you a workplace where learning is in focus and where we take great care of each other. To students we offer internship and possibility to do your master thesis at SVT.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -743,7 +743,7 @@ const companyData = [
   },
   {
     "key": 59,
-    "Company": "VentureLab",
+    "Company": "VentureLab (58)",
     "AboutCompany": "VentureLab is the Startup hub of Lund University consisting of three parts; Inspiration, Idea guidance & Incubation. We want to Inspire you as a student towards an alternative career through different activities & events. Idea guidance means that you meet a coach to help you with a plan, network, & knowledge to help your idea become reality. In the Incubator you get an office space, becomes part of a community with other entrepreneurs determined & facing similar challenges just like you. All ideas are welcome and remember that we have full confidentiality. Welcome!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -756,7 +756,7 @@ const companyData = [
   },
   {
     "key": 60,
-    "Company": "Bosch",
+    "Company": "Bosch (33)",
     "AboutCompany": "The Bosch office in Lund is a development site, which was started in the end of 2015, and has now grown to 170 persons. The teams in the office are working on software solutions for connecting Bosch devices to the internet in a secure way. The main focus is on automotive devices to connect vehicles (e.g. car infotainment system and other electronic control units), but also on CE-devices like the next generation eBike-computer.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -769,7 +769,7 @@ const companyData = [
   },
   {
     "key": 61,
-    "Company": "Neo4j",
+    "Company": "Neo4j (44)",
     "AboutCompany": "The World Leader in Graph Databases",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -782,7 +782,7 @@ const companyData = [
   },
   {
     "key": 62,
-    "Company": "Vårdinnovation Sverige AB",
+    "Company": "Vårdinnovation Sverige AB (16)",
     "AboutCompany": "Vårdinnovation bildades av vårdpersonal för att utveckla och förbättra vården genom innovativa digitala hjälpmedel. Vårt medicinska utvecklingsteam skapar de digitala lösningarna utifrån vetenskaplig evidens, i nära samarbete med specialister inom statistik och artificiell intelligens. Vårt implementationsteam arbetar tvärprofessionellt med förändringsledning och införande ute i den kliniska verksamheten. Tillsammans ändrar vi förutsättningarna för vården att möta alla dess utmaningar!",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -795,7 +795,7 @@ const companyData = [
   },
   {
     "key": 63,
-    "Company": "Hello World!",
+    "Company": "Hello World! (3)",
     "AboutCompany": "Hello world! is a non-profit organization who works with digital creativity towards all youth and teens, regardless of economic background, gender and previous Knowledge. Our main activities are Hello World! summer camp and Meetups in Stockholm, Gothenburg and in South Sweden which is new for Hello World! 2020. We are looking for you, who not only want to have great part- and summer work, but also want to work with youth and teens and get the opportunity to inspire our future digital stars.",
     "OfficeLocation": "",
     "SustainabilityWork": "",
@@ -808,7 +808,7 @@ const companyData = [
   },
   {
     "key": 64,
-    "Company": "AddPro AB",
+    "Company": "AddPro AB (26)",
     "AboutCompany": "New strategies, new technologies, new ways of working. All of that is worth nothing if it doesn't lead to greater efficiency. That is the very reason why AddPro exists - to help companies become more efficient and more profitable. Our common sense, accompanied with our experience gained over the course of more than two decades, has helped many organizations to embrace the digital transformation. Tech offers staggering potential to create greater efficiency. Bur for that to happen, someone must lead the way. That is what we do. And we need great minds along for the ride. Let's talk. ",
     "OfficeLocation": "",
     "SustainabilityWork": "",

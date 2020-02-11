@@ -136,23 +136,24 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.teknikfokus_app_2018"
+        applicationId "com.teknikfokus_app_2020released"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 5
+        versionCode 11
         versionName "1.1"
         ndk {
-            abiFilters "armeabi-v7a", "x86"
+            abiFilters "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
+            abiFilters.clear()
         }
     }
     signingConfigs {
         release {
             if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
                 release {
-                    storeFile file("release.keystore")
-                    storePassword "******"
-                    keyAlias "******"
-                    keyPassword "******"
+                    storeFile file(MYAPP_RELEASE_STORE_FILE)
+                    storePassword MYAPP_RELEASE_STORE_PASSWORD
+                    keyAlias MYAPP_RELEASE_KEY_ALIAS
+                    keyPassword MYAPP_RELEASE_KEY_PASSWORD
                 }
             }
           }
@@ -162,7 +163,7 @@ android {
             reset()
             enable enableSeparateBuildPerCPUArchitecture
             universalApk false  // If true, also generate a universal APK
-            include "armeabi-v7a", "x86"
+            include  "armeabi-v7a", "arm64-v8a"
         }
     }
     buildTypes {
@@ -177,7 +178,7 @@ android {
         variant.outputs.each { output ->
             // For each separate APK per architecture, set a unique version code as described here:
             // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-            def versionCodes = ["armeabi-v7a":1, "x86":2]
+            def versionCodes = ["armeabi-v7a":1, "arm64-v8a":2]
             def abi = output.getFilter(OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
