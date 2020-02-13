@@ -13,6 +13,7 @@ import CompaniesScreen from '../screens/Companies/CompaniesScreen'
       && (weOffer.length !== 0 ? item['Offer'].includes(weOffer) : true)
       && (day.length !== 0 ? item['Day'].includes(day) : true)
 
+
   )
   return companies
 }

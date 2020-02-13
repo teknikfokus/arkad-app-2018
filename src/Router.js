@@ -72,14 +72,14 @@ const MainStack = createBottomTabNavigator(
             navigationOptions: ({ navigation }) => ({
               ...navigationOptions,
               title: 'Companies',
-               headerRight: (
-                <TouchableOpacity
+               /*headerRight: (                         //COMMENT: Button disabled due to bug whenever selecting multiple choises. Remove to enable.
+                 <TouchableOpacity
                   style={styles.headerIcon}
                   onPress={() => navigation.navigate('Filter')}
                 >
                   <Icon name="filter" size={24} color="#fff" />
                 </TouchableOpacity>
-              ), 
+              ), */
               headerLeft: <ShowFavoritesButton />
             })
           },

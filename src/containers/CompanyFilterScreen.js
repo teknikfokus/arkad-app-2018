@@ -14,10 +14,11 @@ const OUR_CUSTOM_FILTERS = {
   },
   weOffer: {
     children: [
-      { name: 'Summer job' },
+      { name: 'Summerjob' },
       { name: 'Part time positions' },
       { name: 'Master thesis' },
-      { name: 'Full Time Employment' },
+      { name: 'Full time positions' },
+      { name: 'Internship' },
     ],
     id: 'weOffer',
     name: 'Offers'

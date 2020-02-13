@@ -227,7 +227,7 @@ const companyData = [
     "OfficeLocation": "",
     "SustainabilityWork": "",
     "Interested in": "Electrical engineering, Biomedical engineering, Computer science, Information and communication technology",
-    "Offer": "Summerjob, Full time positions, part time job",
+    "Offer": "Summerjob, Full time positions, part time positions",
     "Name of contact person": "Sara Pennsäter Åkesson",
     "Email of contact person": "sara.akesson@academicwork.se",
     "Day": "18th of February",
