@@ -5,7 +5,7 @@ import { loadCompanies } from '../actions/api'
 import { toggleShowFavorites, searchCompany } from '../actions/company'
 import CompaniesScreen from '../screens/Companies/CompaniesScreen'
 
-const filterCategories = (items, desiredProgramme, weOffer, day) => {
+ const filterCategories = (items, desiredProgramme, weOffer, day) => {
   let companies = items
   companies = companies.filter(
     item => (
@@ -50,7 +50,7 @@ const filterFavoritesAndSearch = (items, showFavorites, favorites, searchText) =
   return companies
 }
 
-// TODO: after companyList enter all Teknikfokus-companies 
+// TODO: after companyList enter all Teknikfokus-companies
 
 const mapStateToProps = state => ({
   companyList: filterFavoritesAndSearch(

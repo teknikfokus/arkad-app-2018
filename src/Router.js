@@ -72,14 +72,14 @@ const MainStack = createBottomTabNavigator(
             navigationOptions: ({ navigation }) => ({
               ...navigationOptions,
               title: 'Companies',
-              headerRight: (
+               headerRight: (
                 <TouchableOpacity
                   style={styles.headerIcon}
                   onPress={() => navigation.navigate('Filter')}
                 >
                   <Icon name="filter" size={24} color="#fff" />
                 </TouchableOpacity>
-              ),
+              ), 
               headerLeft: <ShowFavoritesButton />
             })
           },

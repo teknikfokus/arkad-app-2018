@@ -4,9 +4,10 @@ import CompanyFilterScreen from '../screens/Companies/CompanyFilterScreen'
 const OUR_CUSTOM_FILTERS = {
   desiredProgramme: {
     children: [
-      { name: 'Computer Science / InfoCom' },
-      { name: 'Biomedical Engineering' },
-      { name: 'Electrical Engineering' },
+      { name: 'Computer science' },
+      { name: 'Information & communication techonology' },
+      { name: 'Biomedical engineering' },
+      { name: 'Electrical engineering' },
     ],
     id: 'desiredProgramme',
     name: 'Program'
@@ -14,7 +15,7 @@ const OUR_CUSTOM_FILTERS = {
   weOffer: {
     children: [
       { name: 'Summer job' },
-      { name: 'Extra job' },
+      { name: 'Part time positions' },
       { name: 'Master thesis' },
       { name: 'Full Time Employment' },
     ],
@@ -23,8 +24,8 @@ const OUR_CUSTOM_FILTERS = {
   },
   day: {
     children: [
-      { name: '12 February' },
-      { name: '13 February' },
+      { name: '18th of February' },
+      { name: '19th of February' },
     ],
     id: 'day',
     name: 'Day of Fair'
